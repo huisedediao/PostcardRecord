@@ -1,0 +1,2472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CD51CE69B5F1EE42082843 /* libPods-PostcardRecord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A313BCB617373AB8E30C4045 /* libPods-PostcardRecord.a */; };
+		3853C311C60BE95E4BA0538A /* libPods-PostcardRecordTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 159BB96B04F733CDDDB7E039 /* libPods-PostcardRecordTests.a */; };
+		F111B98121197043000B862B /* SyncTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F111B98021197043000B862B /* SyncTool.m */; };
+		F111B985211970C8000B862B /* LoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F111B984211970C8000B862B /* LoginTool.m */; };
+		F111B989211971BF000B862B /* LeanCloudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F111B988211971BF000B862B /* LeanCloudTool.m */; };
+		F111B99021199AA3000B862B /* XBAlertView_login.m in Sources */ = {isa = PBXBuildFile; fileRef = F111B98F21199AA3000B862B /* XBAlertView_login.m */; };
+		F1F83D592117D54E0005C272 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D582117D54E0005C272 /* AppDelegate.m */; };
+		F1F83D5C2117D54E0005C272 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D5B2117D54E0005C272 /* ViewController.m */; };
+		F1F83D5F2117D54E0005C272 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F83D5D2117D54E0005C272 /* Main.storyboard */; };
+		F1F83D612117D54E0005C272 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1F83D602117D54E0005C272 /* Assets.xcassets */; };
+		F1F83D642117D54E0005C272 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1F83D622117D54E0005C272 /* LaunchScreen.storyboard */; };
+		F1F83D672117D54F0005C272 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D662117D54F0005C272 /* main.m */; };
+		F1F83D712117D54F0005C272 /* PostcardRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D702117D54F0005C272 /* PostcardRecordTests.m */; };
+		F1F83D7C2117D54F0005C272 /* PostcardRecordUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D7B2117D54F0005C272 /* PostcardRecordUITests.m */; };
+		F1F83D8E2117D5730005C272 /* XBAppTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D8A2117D5730005C272 /* XBAppTool.m */; };
+		F1F83D922117D5FB0005C272 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = F1F83D912117D5FB0005C272 /* city.json */; };
+		F1F83DAD2117D66F0005C272 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D992117D66E0005C272 /* MJPropertyType.m */; };
+		F1F83DAE2117D66F0005C272 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D9C2117D66E0005C272 /* NSObject+MJKeyValue.m */; };
+		F1F83DAF2117D66F0005C272 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D9D2117D66E0005C272 /* MJProperty.m */; };
+		F1F83DB02117D66F0005C272 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83D9F2117D66E0005C272 /* NSObject+MJCoding.m */; };
+		F1F83DB12117D66F0005C272 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DA12117D66E0005C272 /* MJExtensionConst.m */; };
+		F1F83DB22117D66F0005C272 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DA22117D66E0005C272 /* NSObject+MJProperty.m */; };
+		F1F83DB32117D66F0005C272 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DA42117D66E0005C272 /* NSObject+MJClass.m */; };
+		F1F83DB42117D66F0005C272 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DA52117D66E0005C272 /* NSString+MJExtension.m */; };
+		F1F83DB52117D66F0005C272 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DA62117D66E0005C272 /* MJPropertyKey.m */; };
+		F1F83DB62117D66F0005C272 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DAA2117D66E0005C272 /* MJFoundation.m */; };
+		F1F83DB72117D66F0005C272 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F1F83DAB2117D66E0005C272 /* LICENSE */; };
+		F1F83DB82117D66F0005C272 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F1F83DAC2117D66E0005C272 /* README.md */; };
+		F1F83DC12117D7A70005C272 /* BaseBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DBD2117D7A70005C272 /* BaseBackViewController.m */; };
+		F1F83DC22117D7A70005C272 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DBE2117D7A70005C272 /* BaseViewController.m */; };
+		F1F83DCA2117D82F0005C272 /* UIColor+Extern.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DC52117D8290005C272 /* UIColor+Extern.m */; };
+		F1F83DCB2117D82F0005C272 /* UIButton+Extern.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DC62117D82A0005C272 /* UIButton+Extern.m */; };
+		F1F83DCC2117D82F0005C272 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DC72117D82B0005C272 /* UIView+Category.m */; };
+		F1F83DCF2117D83B0005C272 /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DCE2117D83B0005C272 /* UIImage+ColorImage.m */; };
+		F1F83DD32117D8570005C272 /* XBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DD12117D8570005C272 /* XBButton.m */; };
+		F1F83DEE2117D87D0005C272 /* XBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DD72117D87B0005C272 /* XBAlertView.m */; };
+		F1F83DEF2117D87D0005C272 /* XBAlertView_MsgLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DDB2117D87B0005C272 /* XBAlertView_MsgLeft.m */; };
+		F1F83DF02117D87D0005C272 /* XBAlertView+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DDC2117D87B0005C272 /* XBAlertView+Block.m */; };
+		F1F83DF12117D87D0005C272 /* XBAlertView_sharePay.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DDD2117D87B0005C272 /* XBAlertView_sharePay.m */; };
+		F1F83DF22117D87D0005C272 /* XBAlertViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DE02117D87B0005C272 /* XBAlertViewBase.m */; };
+		F1F83DF32117D87D0005C272 /* XBAlertViewBase+Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DE12117D87B0005C272 /* XBAlertViewBase+Queue.m */; };
+		F1F83DF42117D87D0005C272 /* XBAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DE22117D87B0005C272 /* XBAlertViewManager.m */; };
+		F1F83DF52117D87D0005C272 /* XBWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DE72117D87C0005C272 /* XBWaitingView.m */; };
+		F1F83DF62117D87D0005C272 /* XBActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DE92117D87C0005C272 /* XBActionSheet.m */; };
+		F1F83DF72117D87D0005C272 /* XBTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DEC2117D87C0005C272 /* XBTipView.m */; };
+		F1F83DFB2117D88A0005C272 /* XBLocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83DFA2117D88A0005C272 /* XBLocalizedString.m */; };
+		F1F83F042117D8D50005C272 /* AnXin_language.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E0A2117D8D40005C272 /* AnXin_language.bundle */; };
+		F1F83F052117D8D50005C272 /* 待付款按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E0D2117D8D40005C272 /* 待付款按下@2x.png */; };
+		F1F83F062117D8D50005C272 /* 删除按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E0E2117D8D40005C272 /* 删除按下@2x.png */; };
+		F1F83F072117D8D50005C272 /* 收起默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E0F2117D8D40005C272 /* 收起默认@3x.png */; };
+		F1F83F082117D8D50005C272 /* 已完成按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E102117D8D40005C272 /* 已完成按下@3x.png */; };
+		F1F83F092117D8D50005C272 /* 展开默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E112117D8D40005C272 /* 展开默认@3x.png */; };
+		F1F83F0A2117D8D50005C272 /* 团@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E122117D8D40005C272 /* 团@3x.png */; };
+		F1F83F0B2117D8D50005C272 /* 团@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E132117D8D40005C272 /* 团@2x.png */; };
+		F1F83F0C2117D8D50005C272 /* 收起默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E142117D8D40005C272 /* 收起默认@2x.png */; };
+		F1F83F0D2117D8D50005C272 /* 已完成按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E152117D8D40005C272 /* 已完成按下@2x.png */; };
+		F1F83F0E2117D8D50005C272 /* 展开默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E162117D8D40005C272 /* 展开默认@2x.png */; };
+		F1F83F0F2117D8D50005C272 /* 删除按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E172117D8D40005C272 /* 删除按下@3x.png */; };
+		F1F83F102117D8D50005C272 /* 待付款按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E182117D8D40005C272 /* 待付款按下@3x.png */; };
+		F1F83F112117D8D50005C272 /* 取消默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E192117D8D40005C272 /* 取消默认@3x.png */; };
+		F1F83F122117D8D50005C272 /* 已付款默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E1A2117D8D40005C272 /* 已付款默认@3x.png */; };
+		F1F83F132117D8D50005C272 /* 余额支付@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E1B2117D8D40005C272 /* 余额支付@3x.png */; };
+		F1F83F142117D8D50005C272 /* 余额支付@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E1C2117D8D40005C272 /* 余额支付@2x.png */; };
+		F1F83F152117D8D50005C272 /* 已付款默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E1D2117D8D40005C272 /* 已付款默认@2x.png */; };
+		F1F83F162117D8D50005C272 /* 取消默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E1E2117D8D40005C272 /* 取消默认@2x.png */; };
+		F1F83F172117D8D50005C272 /* 取消按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E1F2117D8D40005C272 /* 取消按下@2x.png */; };
+		F1F83F182117D8D50005C272 /* 食@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E202117D8D40005C272 /* 食@2x.png */; };
+		F1F83F192117D8D50005C272 /* 已付款按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E212117D8D40005C272 /* 已付款按下@2x.png */; };
+		F1F83F1A2117D8D50005C272 /* 已付款按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E222117D8D40005C272 /* 已付款按下@3x.png */; };
+		F1F83F1B2117D8D50005C272 /* 食@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E232117D8D40005C272 /* 食@3x.png */; };
+		F1F83F1C2117D8D50005C272 /* 取消按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E242117D8D40005C272 /* 取消按下@3x.png */; };
+		F1F83F1D2117D8D50005C272 /* 待付款默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E252117D8D40005C272 /* 待付款默认@3x.png */; };
+		F1F83F1E2117D8D50005C272 /* 删除默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E262117D8D40005C272 /* 删除默认@3x.png */; };
+		F1F83F1F2117D8D50005C272 /* 已完成默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E272117D8D40005C272 /* 已完成默认@2x.png */; };
+		F1F83F202117D8D50005C272 /* 展开按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E282117D8D40005C272 /* 展开按下@2x.png */; };
+		F1F83F212117D8D50005C272 /* 收起按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E292117D8D40005C272 /* 收起按下@2x.png */; };
+		F1F83F222117D8D50005C272 /* 已完成默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E2A2117D8D40005C272 /* 已完成默认@3x.png */; };
+		F1F83F232117D8D50005C272 /* 展开按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E2B2117D8D40005C272 /* 展开按下@3x.png */; };
+		F1F83F242117D8D50005C272 /* 收起按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E2C2117D8D40005C272 /* 收起按下@3x.png */; };
+		F1F83F252117D8D50005C272 /* 删除默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E2D2117D8D40005C272 /* 删除默认@2x.png */; };
+		F1F83F262117D8D50005C272 /* 待付款默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E2E2117D8D40005C272 /* 待付款默认@2x.png */; };
+		F1F83F272117D8D50005C272 /* 邀请团友按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E302117D8D40005C272 /* 邀请团友按下@2x.png */; };
+		F1F83F282117D8D50005C272 /* 邀请团友按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E312117D8D40005C272 /* 邀请团友按下@3x.png */; };
+		F1F83F292117D8D50005C272 /* 创建饭团默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E322117D8D40005C272 /* 创建饭团默认@3x.png */; };
+		F1F83F2A2117D8D50005C272 /* 新增团友默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E332117D8D40005C272 /* 新增团友默认@2x.png */; };
+		F1F83F2B2117D8D50005C272 /* 通讯录导入默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E342117D8D40005C272 /* 通讯录导入默认@2x.png */; };
+		F1F83F2C2117D8D50005C272 /* 背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E352117D8D40005C272 /* 背景@3x.png */; };
+		F1F83F2D2117D8D50005C272 /* 背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E362117D8D40005C272 /* 背景@2x.png */; };
+		F1F83F2E2117D8D50005C272 /* 通讯录导入默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E372117D8D40005C272 /* 通讯录导入默认@3x.png */; };
+		F1F83F2F2117D8D50005C272 /* 新增团友默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E382117D8D40005C272 /* 新增团友默认@3x.png */; };
+		F1F83F302117D8D50005C272 /* 创建饭团默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E392117D8D40005C272 /* 创建饭团默认@2x.png */; };
+		F1F83F312117D8D50005C272 /* 创建饭团按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E3A2117D8D40005C272 /* 创建饭团按下@2x.png */; };
+		F1F83F322117D8D50005C272 /* 通讯录导入按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E3B2117D8D40005C272 /* 通讯录导入按下@3x.png */; };
+		F1F83F332117D8D50005C272 /* 二维码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E3C2117D8D40005C272 /* 二维码@2x.png */; };
+		F1F83F342117D8D50005C272 /* 新增团友按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E3D2117D8D40005C272 /* 新增团友按下@3x.png */; };
+		F1F83F352117D8D50005C272 /* 新增团友按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E3E2117D8D40005C272 /* 新增团友按下@2x.png */; };
+		F1F83F362117D8D50005C272 /* 二维码@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E3F2117D8D40005C272 /* 二维码@3x.png */; };
+		F1F83F372117D8D50005C272 /* 通讯录导入按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E402117D8D40005C272 /* 通讯录导入按下@2x.png */; };
+		F1F83F382117D8D50005C272 /* 创建饭团按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E412117D8D40005C272 /* 创建饭团按下@3x.png */; };
+		F1F83F392117D8D50005C272 /* 邀请团友默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E422117D8D40005C272 /* 邀请团友默认@3x.png */; };
+		F1F83F3A2117D8D50005C272 /* 朋友圈@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E432117D8D40005C272 /* 朋友圈@3x.png */; };
+		F1F83F3B2117D8D50005C272 /* 朋友圈@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E442117D8D40005C272 /* 朋友圈@2x.png */; };
+		F1F83F3C2117D8D50005C272 /* 邀请团友默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E452117D8D40005C272 /* 邀请团友默认@2x.png */; };
+		F1F83F3D2117D8D50005C272 /* 底部投影47@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E472117D8D40005C272 /* 底部投影47@2x.png */; };
+		F1F83F3E2117D8D50005C272 /* 点餐当前@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E482117D8D40005C272 /* 点餐当前@2x.png */; };
+		F1F83F3F2117D8D50005C272 /* 饭团当前@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E492117D8D40005C272 /* 饭团当前@2x.png */; };
+		F1F83F402117D8D50005C272 /* 订单默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E4A2117D8D40005C272 /* 订单默认@3x.png */; };
+		F1F83F412117D8D50005C272 /* 我的默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E4B2117D8D40005C272 /* 我的默认@2x.png */; };
+		F1F83F422117D8D50005C272 /* 我的默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E4C2117D8D40005C272 /* 我的默认@3x.png */; };
+		F1F83F432117D8D50005C272 /* 订单默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E4D2117D8D40005C272 /* 订单默认@2x.png */; };
+		F1F83F442117D8D50005C272 /* 饭团当前@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E4E2117D8D40005C272 /* 饭团当前@3x.png */; };
+		F1F83F452117D8D50005C272 /* 点餐当前@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E4F2117D8D40005C272 /* 点餐当前@3x.png */; };
+		F1F83F462117D8D50005C272 /* 底部投影55@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E502117D8D40005C272 /* 底部投影55@3x.png */; };
+		F1F83F472117D8D50005C272 /* 饭团默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E512117D8D40005C272 /* 饭团默认@2x.png */; };
+		F1F83F482117D8D50005C272 /* 订单当前@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E522117D8D40005C272 /* 订单当前@3x.png */; };
+		F1F83F492117D8D50005C272 /* 我的当前@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E532117D8D40005C272 /* 我的当前@2x.png */; };
+		F1F83F4A2117D8D50005C272 /* 底部投影X@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E542117D8D40005C272 /* 底部投影X@3x.png */; };
+		F1F83F4B2117D8D50005C272 /* 点餐默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E552117D8D40005C272 /* 点餐默认@2x.png */; };
+		F1F83F4C2117D8D50005C272 /* 点餐默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E562117D8D40005C272 /* 点餐默认@3x.png */; };
+		F1F83F4D2117D8D60005C272 /* 我的当前@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E572117D8D40005C272 /* 我的当前@3x.png */; };
+		F1F83F4E2117D8D60005C272 /* 订单当前@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E582117D8D40005C272 /* 订单当前@2x.png */; };
+		F1F83F4F2117D8D60005C272 /* 饭团默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E592117D8D40005C272 /* 饭团默认@3x.png */; };
+		F1F83F502117D8D60005C272 /* 底部投影4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E5A2117D8D40005C272 /* 底部投影4@2x.png */; };
+		F1F83F512117D8D60005C272 /* 返回按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E5C2117D8D40005C272 /* 返回按下@2x.png */; };
+		F1F83F522117D8D60005C272 /* 返回按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E5D2117D8D40005C272 /* 返回按下@3x.png */; };
+		F1F83F532117D8D60005C272 /* top背景58@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E5E2117D8D40005C272 /* top背景58@3x.png */; };
+		F1F83F542117D8D60005C272 /* 关闭白色按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E5F2117D8D40005C272 /* 关闭白色按下@3x.png */; };
+		F1F83F552117D8D60005C272 /* 关闭白色按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E602117D8D40005C272 /* 关闭白色按下@2x.png */; };
+		F1F83F562117D8D60005C272 /* 关闭白色默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E612117D8D40005C272 /* 关闭白色默认@2x.png */; };
+		F1F83F572117D8D60005C272 /* 关闭白色默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E622117D8D40005C272 /* 关闭白色默认@3x.png */; };
+		F1F83F582117D8D60005C272 /* top背景4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E632117D8D40005C272 /* top背景4@2x.png */; };
+		F1F83F592117D8D60005C272 /* top背景55@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E642117D8D40005C272 /* top背景55@3x.png */; };
+		F1F83F5A2117D8D60005C272 /* 返回默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E652117D8D40005C272 /* 返回默认@3x.png */; };
+		F1F83F5B2117D8D60005C272 /* 返回默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E662117D8D40005C272 /* 返回默认@2x.png */; };
+		F1F83F5C2117D8D60005C272 /* top背景47@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E672117D8D40005C272 /* top背景47@2x.png */; };
+		F1F83F5D2117D8D60005C272 /* 人民币符号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E692117D8D40005C272 /* 人民币符号@3x.png */; };
+		F1F83F5E2117D8D60005C272 /* 我的背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E6A2117D8D40005C272 /* 我的背景@3x.png */; };
+		F1F83F5F2117D8D60005C272 /* 默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E6B2117D8D40005C272 /* 默认@2x.png */; };
+		F1F83F602117D8D60005C272 /* 前进白色按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E6C2117D8D40005C272 /* 前进白色按下@2x.png */; };
+		F1F83F612117D8D60005C272 /* 我的钱包背景@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E6D2117D8D40005C272 /* 我的钱包背景@3x.png */; };
+		F1F83F622117D8D60005C272 /* 设置默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E6E2117D8D40005C272 /* 设置默认@3x.png */; };
+		F1F83F632117D8D60005C272 /* 联系我们按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E6F2117D8D40005C272 /* 联系我们按下@2x.png */; };
+		F1F83F642117D8D60005C272 /* 联系我们按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E702117D8D40005C272 /* 联系我们按下@3x.png */; };
+		F1F83F652117D8D60005C272 /* 设置默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E712117D8D40005C272 /* 设置默认@2x.png */; };
+		F1F83F662117D8D60005C272 /* 我的钱包背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E722117D8D40005C272 /* 我的钱包背景@2x.png */; };
+		F1F83F672117D8D60005C272 /* 我的背景X@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E732117D8D40005C272 /* 我的背景X@3x.png */; };
+		F1F83F682117D8D60005C272 /* 前进白色按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E742117D8D40005C272 /* 前进白色按下@3x.png */; };
+		F1F83F692117D8D60005C272 /* 我的背景@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E752117D8D40005C272 /* 我的背景@2x.png */; };
+		F1F83F6A2117D8D60005C272 /* 默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E762117D8D40005C272 /* 默认@3x.png */; };
+		F1F83F6B2117D8D60005C272 /* 人民币符号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E772117D8D40005C272 /* 人民币符号@2x.png */; };
+		F1F83F6C2117D8D60005C272 /* 我的钱包默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E782117D8D40005C272 /* 我的钱包默认@2x.png */; };
+		F1F83F6D2117D8D60005C272 /* 邀请默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E792117D8D40005C272 /* 邀请默认@3x.png */; };
+		F1F83F6E2117D8D60005C272 /* 地址默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E7A2117D8D40005C272 /* 地址默认@2x.png */; };
+		F1F83F6F2117D8D60005C272 /* 头像默认.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E7B2117D8D40005C272 /* 头像默认.png */; };
+		F1F83F702117D8D60005C272 /* 邀请默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E7C2117D8D40005C272 /* 邀请默认@2x.png */; };
+		F1F83F712117D8D60005C272 /* 地址默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E7D2117D8D40005C272 /* 地址默认@3x.png */; };
+		F1F83F722117D8D60005C272 /* 我的钱包默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E7E2117D8D40005C272 /* 我的钱包默认@3x.png */; };
+		F1F83F732117D8D60005C272 /* inviteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E7F2117D8D40005C272 /* inviteLogo.png */; };
+		F1F83F742117D8D60005C272 /* 邀请按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E802117D8D40005C272 /* 邀请按下@2x.png */; };
+		F1F83F752117D8D60005C272 /* 地址按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E812117D8D40005C272 /* 地址按下@3x.png */; };
+		F1F83F762117D8D60005C272 /* 我的钱包背景X@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E822117D8D40005C272 /* 我的钱包背景X@3x.png */; };
+		F1F83F772117D8D60005C272 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E832117D8D40005C272 /* logo@3x.png */; };
+		F1F83F782117D8D60005C272 /* 我的钱包按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E842117D8D40005C272 /* 我的钱包按下@3x.png */; };
+		F1F83F792117D8D60005C272 /* 我的钱包按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E852117D8D40005C272 /* 我的钱包按下@2x.png */; };
+		F1F83F7A2117D8D60005C272 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E862117D8D40005C272 /* logo@2x.png */; };
+		F1F83F7B2117D8D60005C272 /* 我的钱包背景X@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E872117D8D40005C272 /* 我的钱包背景X@2x.png */; };
+		F1F83F7C2117D8D60005C272 /* 邀请按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E882117D8D40005C272 /* 邀请按下@3x.png */; };
+		F1F83F7D2117D8D60005C272 /* 地址按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E892117D8D40005C272 /* 地址按下@2x.png */; };
+		F1F83F7E2117D8D60005C272 /* 前进白色默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E8A2117D8D40005C272 /* 前进白色默认@3x.png */; };
+		F1F83F7F2117D8D60005C272 /* 头像默认_群.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E8B2117D8D40005C272 /* 头像默认_群.png */; };
+		F1F83F802117D8D60005C272 /* 设置按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E8C2117D8D40005C272 /* 设置按下@2x.png */; };
+		F1F83F812117D8D60005C272 /* 联系我们默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E8D2117D8D40005C272 /* 联系我们默认@3x.png */; };
+		F1F83F822117D8D60005C272 /* 定位当前位置@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E8E2117D8D40005C272 /* 定位当前位置@3x.png */; };
+		F1F83F832117D8D60005C272 /* 定位当前位置@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E8F2117D8D40005C272 /* 定位当前位置@2x.png */; };
+		F1F83F842117D8D60005C272 /* 联系我们默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E902117D8D40005C272 /* 联系我们默认@2x.png */; };
+		F1F83F852117D8D60005C272 /* 设置按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E912117D8D40005C272 /* 设置按下@3x.png */; };
+		F1F83F862117D8D60005C272 /* 前进白色默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E922117D8D40005C272 /* 前进白色默认@2x.png */; };
+		F1F83F872117D8D60005C272 /* 饭团头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E942117D8D40005C272 /* 饭团头像@2x.png */; };
+		F1F83F882117D8D60005C272 /* 重新定位默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E952117D8D40005C272 /* 重新定位默认@2x.png */; };
+		F1F83F892117D8D60005C272 /* 未选中默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E962117D8D40005C272 /* 未选中默认@2x.png */; };
+		F1F83F8A2117D8D60005C272 /* 减少默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E972117D8D40005C272 /* 减少默认@3x.png */; };
+		F1F83F8B2117D8D60005C272 /* 增加按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E982117D8D40005C272 /* 增加按下@3x.png */; };
+		F1F83F8C2117D8D60005C272 /* 关闭默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E992117D8D40005C272 /* 关闭默认@3x.png */; };
+		F1F83F8D2117D8D60005C272 /* 支付宝@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E9A2117D8D40005C272 /* 支付宝@2x.png */; };
+		F1F83F8E2117D8D60005C272 /* 无内容@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E9B2117D8D40005C272 /* 无内容@3x.png */; };
+		F1F83F8F2117D8D60005C272 /* 搜索浅灰@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E9C2117D8D40005C272 /* 搜索浅灰@3x.png */; };
+		F1F83F902117D8D60005C272 /* 选中默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E9D2117D8D40005C272 /* 选中默认@2x.png */; };
+		F1F83F912117D8D60005C272 /* 进入按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E9E2117D8D40005C272 /* 进入按下@3x.png */; };
+		F1F83F922117D8D60005C272 /* 添加按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83E9F2117D8D40005C272 /* 添加按下@2x.png */; };
+		F1F83F932117D8D60005C272 /* 更新通知@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA02117D8D40005C272 /* 更新通知@3x.png */; };
+		F1F83F942117D8D60005C272 /* 下拉箭头按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA12117D8D40005C272 /* 下拉箭头按下@3x.png */; };
+		F1F83F952117D8D60005C272 /* 地址@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA22117D8D40005C272 /* 地址@3x.png */; };
+		F1F83F962117D8D60005C272 /* 晚@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA32117D8D40005C272 /* 晚@3x.png */; };
+		F1F83F972117D8D60005C272 /* 菜主图片@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA42117D8D40005C272 /* 菜主图片@2x.png */; };
+		F1F83F982117D8D60005C272 /* 菜主图片@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA52117D8D40005C272 /* 菜主图片@3x.png */; };
+		F1F83F992117D8D60005C272 /* 地址@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA62117D8D40005C272 /* 地址@2x.png */; };
+		F1F83F9A2117D8D60005C272 /* 晚@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA72117D8D40005C272 /* 晚@2x.png */; };
+		F1F83F9B2117D8D60005C272 /* 下拉箭头按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA82117D8D40005C272 /* 下拉箭头按下@2x.png */; };
+		F1F83F9C2117D8D60005C272 /* 更新通知@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EA92117D8D40005C272 /* 更新通知@2x.png */; };
+		F1F83F9D2117D8D60005C272 /* 添加按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EAA2117D8D40005C272 /* 添加按下@3x.png */; };
+		F1F83F9E2117D8D60005C272 /* 进入按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EAB2117D8D40005C272 /* 进入按下@2x.png */; };
+		F1F83F9F2117D8D60005C272 /* 搜索浅灰@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EAC2117D8D40005C272 /* 搜索浅灰@2x.png */; };
+		F1F83FA02117D8D60005C272 /* 选中默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EAD2117D8D40005C272 /* 选中默认@3x.png */; };
+		F1F83FA12117D8D60005C272 /* 无内容@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EAE2117D8D40005C272 /* 无内容@2x.png */; };
+		F1F83FA22117D8D60005C272 /* 关闭默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EAF2117D8D40005C272 /* 关闭默认@2x.png */; };
+		F1F83FA32117D8D60005C272 /* 支付宝@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB02117D8D40005C272 /* 支付宝@3x.png */; };
+		F1F83FA42117D8D60005C272 /* 增加按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB12117D8D40005C272 /* 增加按下@2x.png */; };
+		F1F83FA52117D8D60005C272 /* 减少默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB22117D8D40005C272 /* 减少默认@2x.png */; };
+		F1F83FA62117D8D60005C272 /* 重新定位默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB32117D8D40005C272 /* 重新定位默认@3x.png */; };
+		F1F83FA72117D8D60005C272 /* 未选中默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB42117D8D40005C272 /* 未选中默认@3x.png */; };
+		F1F83FA82117D8D60005C272 /* 饭团头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB52117D8D40005C272 /* 饭团头像@3x.png */; };
+		F1F83FA92117D8D60005C272 /* xxxx活动.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB62117D8D40005C272 /* xxxx活动.png */; };
+		F1F83FAA2117D8D60005C272 /* 标题装饰@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB72117D8D40005C272 /* 标题装饰@3x.png */; };
+		F1F83FAB2117D8D60005C272 /* 养生食疗按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB82117D8D40005C272 /* 养生食疗按下@2x.png */; };
+		F1F83FAC2117D8D60005C272 /* tip-警示.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EB92117D8D40005C272 /* tip-警示.png */; };
+		F1F83FAD2117D8D60005C272 /* 购物车@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EBA2117D8D40005C272 /* 购物车@2x.png */; };
+		F1F83FAE2117D8D60005C272 /* 消息默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EBB2117D8D40005C272 /* 消息默认@3x.png */; };
+		F1F83FAF2117D8D60005C272 /* 搜索白色按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EBC2117D8D40005C272 /* 搜索白色按下@3x.png */; };
+		F1F83FB02117D8D60005C272 /* 转发按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EBD2117D8D40005C272 /* 转发按下@3x.png */; };
+		F1F83FB12117D8D60005C272 /* 微信支付@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EBE2117D8D40005C272 /* 微信支付@3x.png */; };
+		F1F83FB22117D8D60005C272 /* 团餐预定按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EBF2117D8D40005C272 /* 团餐预定按下@2x.png */; };
+		F1F83FB32117D8D60005C272 /* 消息提示1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC02117D8D40005C272 /* 消息提示1@2x.png */; };
+		F1F83FB42117D8D60005C272 /* 消息提示1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC12117D8D40005C272 /* 消息提示1@3x.png */; };
+		F1F83FB52117D8D60005C272 /* 团餐预定按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC22117D8D40005C272 /* 团餐预定按下@3x.png */; };
+		F1F83FB62117D8D60005C272 /* 微信支付@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC32117D8D40005C272 /* 微信支付@2x.png */; };
+		F1F83FB72117D8D60005C272 /* 转发按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC42117D8D40005C272 /* 转发按下@2x.png */; };
+		F1F83FB82117D8D60005C272 /* 消息默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC52117D8D40005C272 /* 消息默认@2x.png */; };
+		F1F83FB92117D8D60005C272 /* 搜索白色按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC62117D8D40005C272 /* 搜索白色按下@2x.png */; };
+		F1F83FBA2117D8D60005C272 /* 购物车@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC72117D8D40005C272 /* 购物车@3x.png */; };
+		F1F83FBB2117D8D60005C272 /* tip-成功.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC82117D8D40005C272 /* tip-成功.png */; };
+		F1F83FBC2117D8D60005C272 /* 养生食疗按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EC92117D8D40005C272 /* 养生食疗按下@3x.png */; };
+		F1F83FBD2117D8D60005C272 /* 标题装饰@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ECA2117D8D50005C272 /* 标题装饰@2x.png */; };
+		F1F83FBE2117D8D60005C272 /* tip-失败.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ECB2117D8D50005C272 /* tip-失败.png */; };
+		F1F83FBF2117D8D60005C272 /* 通知默认图@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ECC2117D8D50005C272 /* 通知默认图@3x.png */; };
+		F1F83FC02117D8D60005C272 /* 养生食疗默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ECD2117D8D50005C272 /* 养生食疗默认@3x.png */; };
+		F1F83FC12117D8D60005C272 /* 团餐预定默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ECE2117D8D50005C272 /* 团餐预定默认@3x.png */; };
+		F1F83FC22117D8D60005C272 /* 搜索深灰@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ECF2117D8D50005C272 /* 搜索深灰@3x.png */; };
+		F1F83FC32117D8D60005C272 /* 搜索白色默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED02117D8D50005C272 /* 搜索白色默认@2x.png */; };
+		F1F83FC42117D8D60005C272 /* 消息按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED12117D8D50005C272 /* 消息按下@2x.png */; };
+		F1F83FC52117D8D60005C272 /* 转发默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED22117D8D50005C272 /* 转发默认@2x.png */; };
+		F1F83FC62117D8D60005C272 /* 播放按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED32117D8D50005C272 /* 播放按钮.png */; };
+		F1F83FC72117D8D60005C272 /* 转发默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED42117D8D50005C272 /* 转发默认@3x.png */; };
+		F1F83FC82117D8D60005C272 /* 搜索深灰@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED52117D8D50005C272 /* 搜索深灰@2x.png */; };
+		F1F83FC92117D8D60005C272 /* 搜索白色默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED62117D8D50005C272 /* 搜索白色默认@3x.png */; };
+		F1F83FCA2117D8D60005C272 /* 消息按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED72117D8D50005C272 /* 消息按下@3x.png */; };
+		F1F83FCB2117D8D60005C272 /* 团餐预定默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED82117D8D50005C272 /* 团餐预定默认@2x.png */; };
+		F1F83FCC2117D8D60005C272 /* 养生食疗默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83ED92117D8D50005C272 /* 养生食疗默认@2x.png */; };
+		F1F83FCD2117D8D60005C272 /* tip-加载.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EDA2117D8D50005C272 /* tip-加载.png */; };
+		F1F83FCE2117D8D60005C272 /* 通知默认图@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EDB2117D8D50005C272 /* 通知默认图@2x.png */; };
+		F1F83FCF2117D8D60005C272 /* xxxx订单.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EDC2117D8D50005C272 /* xxxx订单.png */; };
+		F1F83FD02117D8D60005C272 /* 增加默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EDD2117D8D50005C272 /* 增加默认@2x.png */; };
+		F1F83FD12117D8D60005C272 /* 减少按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EDE2117D8D50005C272 /* 减少按下@2x.png */; };
+		F1F83FD22117D8D60005C272 /* 未选中按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EDF2117D8D50005C272 /* 未选中按下@3x.png */; };
+		F1F83FD32117D8D60005C272 /* 重新定位按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE02117D8D50005C272 /* 重新定位按下@3x.png */; };
+		F1F83FD42117D8D60005C272 /* 午@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE12117D8D50005C272 /* 午@2x.png */; };
+		F1F83FD52117D8D60005C272 /* 播放按钮按下.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE22117D8D50005C272 /* 播放按钮按下.png */; };
+		F1F83FD62117D8D60005C272 /* 消息提示2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE32117D8D50005C272 /* 消息提示2@3x.png */; };
+		F1F83FD72117D8D60005C272 /* 进入默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE42117D8D50005C272 /* 进入默认@2x.png */; };
+		F1F83FD82117D8D60005C272 /* 选中按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE52117D8D50005C272 /* 选中按下@3x.png */; };
+		F1F83FD92117D8D60005C272 /* 关闭按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE62117D8D50005C272 /* 关闭按下@2x.png */; };
+		F1F83FDA2117D8D60005C272 /* 下拉箭头默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE72117D8D50005C272 /* 下拉箭头默认@2x.png */; };
+		F1F83FDB2117D8D60005C272 /* 购物车空@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE82117D8D50005C272 /* 购物车空@2x.png */; };
+		F1F83FDC2117D8D60005C272 /* banner@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EE92117D8D50005C272 /* banner@3x.png */; };
+		F1F83FDD2117D8D60005C272 /* 添加默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EEA2117D8D50005C272 /* 添加默认@3x.png */; };
+		F1F83FDE2117D8D60005C272 /* 列表头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EEB2117D8D50005C272 /* 列表头像@2x.png */; };
+		F1F83FDF2117D8D60005C272 /* 列表头像@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EEC2117D8D50005C272 /* 列表头像@3x.png */; };
+		F1F83FE02117D8D60005C272 /* 添加默认@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EED2117D8D50005C272 /* 添加默认@2x.png */; };
+		F1F83FE12117D8D60005C272 /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EEE2117D8D50005C272 /* banner@2x.png */; };
+		F1F83FE22117D8D60005C272 /* 下拉箭头默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EEF2117D8D50005C272 /* 下拉箭头默认@3x.png */; };
+		F1F83FE32117D8D60005C272 /* 购物车空@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF02117D8D50005C272 /* 购物车空@3x.png */; };
+		F1F83FE42117D8D60005C272 /* 关闭按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF12117D8D50005C272 /* 关闭按下@3x.png */; };
+		F1F83FE52117D8D60005C272 /* tip-繁忙.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF22117D8D50005C272 /* tip-繁忙.png */; };
+		F1F83FE62117D8D60005C272 /* 选中按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF32117D8D50005C272 /* 选中按下@2x.png */; };
+		F1F83FE72117D8D60005C272 /* 消息提示2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF42117D8D50005C272 /* 消息提示2@2x.png */; };
+		F1F83FE82117D8D60005C272 /* 进入默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF52117D8D50005C272 /* 进入默认@3x.png */; };
+		F1F83FE92117D8D60005C272 /* 未选中按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF62117D8D50005C272 /* 未选中按下@2x.png */; };
+		F1F83FEA2117D8D60005C272 /* 重新定位按下@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF72117D8D50005C272 /* 重新定位按下@2x.png */; };
+		F1F83FEB2117D8D60005C272 /* 午@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF82117D8D50005C272 /* 午@3x.png */; };
+		F1F83FEC2117D8D60005C272 /* 减少按下@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EF92117D8D50005C272 /* 减少按下@3x.png */; };
+		F1F83FED2117D8D60005C272 /* 增加默认@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EFA2117D8D50005C272 /* 增加默认@3x.png */; };
+		F1F83FEE2117D8D60005C272 /* QQ@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EFC2117D8D50005C272 /* QQ@2x.png */; };
+		F1F83FEF2117D8D60005C272 /* QQ@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EFD2117D8D50005C272 /* QQ@3x.png */; };
+		F1F83FF02117D8D60005C272 /* 手机@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EFE2117D8D50005C272 /* 手机@3x.png */; };
+		F1F83FF12117D8D60005C272 /* 手机@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83EFF2117D8D50005C272 /* 手机@2x.png */; };
+		F1F83FF22117D8D60005C272 /* 验证码@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83F002117D8D50005C272 /* 验证码@3x.png */; };
+		F1F83FF32117D8D60005C272 /* 微信@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83F012117D8D50005C272 /* 微信@3x.png */; };
+		F1F83FF42117D8D60005C272 /* 微信@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83F022117D8D50005C272 /* 微信@2x.png */; };
+		F1F83FF52117D8D60005C272 /* 验证码@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F83F032117D8D50005C272 /* 验证码@2x.png */; };
+		F1F83FF82117D8F80005C272 /* UIView+AdaptKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83FF72117D8F80005C272 /* UIView+AdaptKeyboard.m */; };
+		F1F840172117DAEF0005C272 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F1F83FFB2117DAEE0005C272 /* LICENSE */; };
+		F1F840182117DAEF0005C272 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F83FFE2117DAEE0005C272 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		F1F840192117DAEF0005C272 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840072117DAEE0005C272 /* ViewController+MASAdditions.m */; };
+		F1F8401A2117DAEF0005C272 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8400B2117DAEE0005C272 /* MASCompositeConstraint.m */; };
+		F1F8401B2117DAEF0005C272 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8400C2117DAEE0005C272 /* MASConstraintMaker.m */; };
+		F1F8401C2117DAEF0005C272 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8400D2117DAEE0005C272 /* MASLayoutConstraint.m */; };
+		F1F8401D2117DAEF0005C272 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8400E2117DAEE0005C272 /* NSArray+MASAdditions.m */; };
+		F1F8401E2117DAEF0005C272 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8400F2117DAEE0005C272 /* View+MASAdditions.m */; };
+		F1F8401F2117DAEF0005C272 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840122117DAEE0005C272 /* MASConstraint.m */; };
+		F1F840202117DAEF0005C272 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840142117DAEE0005C272 /* MASViewConstraint.m */; };
+		F1F840212117DAEF0005C272 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840152117DAEE0005C272 /* MASViewAttribute.m */; };
+		F1F840222117DAEF0005C272 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F1F840162117DAEE0005C272 /* README.md */; };
+		F1F840252117DBDE0005C272 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840242117DBDD0005C272 /* UIView+Animation.m */; };
+		F1F840282117DC7D0005C272 /* NSMutableAttributedString+XBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840272117DC7C0005C272 /* NSMutableAttributedString+XBExtension.m */; };
+		F1F8402D2117DD8C0005C272 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8402B2117DD8B0005C272 /* UINavigation+SXFixSpace.m */; };
+		F1F8402E2117DD8C0005C272 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8402C2117DD8B0005C272 /* NSObject+SXRuntime.m */; };
+		F1F840322117DED60005C272 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840312117DED60005C272 /* MainViewController.m */; };
+		F1F840352117F6970005C272 /* CountryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840342117F6970005C272 /* CountryModel.m */; };
+		F1F840382117F7470005C272 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840372117F7470005C272 /* CityModel.m */; };
+		F1F8403B2117F78C0005C272 /* RegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8403A2117F78C0005C272 /* RegionModel.m */; };
+		F1F840472117F9100005C272 /* CityTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840452117F9100005C272 /* CityTool.m */; };
+		F1F8404A211821620005C272 /* AddSeriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F84049211821620005C272 /* AddSeriesViewController.m */; };
+		F1F8404D211825700005C272 /* XBAlertView_inputPWD.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8404C211825700005C272 /* XBAlertView_inputPWD.m */; };
+		F1F84050211829800005C272 /* SeriesModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8404F211829800005C272 /* SeriesModel.m */; };
+		F1F840542118312A0005C272 /* SeriesTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840532118312A0005C272 /* SeriesTool.m */; };
+		F1F840572118406B0005C272 /* SeriesDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840562118406B0005C272 /* SeriesDetailViewController.m */; };
+		F1F8405A2118423E0005C272 /* SeriesDetailTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840592118423E0005C272 /* SeriesDetailTool.m */; };
+		F1F8406021184F2D0005C272 /* SeriesDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F8405F21184F2D0005C272 /* SeriesDetailModel.m */; };
+		F1F840642118536C0005C272 /* XBFloatMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F840632118536C0005C272 /* XBFloatMenuView.m */; };
+		F1F84067211853BE0005C272 /* UIView+FrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F84065211853BD0005C272 /* UIView+FrameLayout.m */; };
+		F1F8406A211932C00005C272 /* AddUnHaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F84069211932C00005C272 /* AddUnHaveViewController.m */; };
+		F530A825B9DB752B4262CBB3 /* libPods-PostcardRecordUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD0B8B059444D9F22323028 /* libPods-PostcardRecordUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1F83D6D2117D54F0005C272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F83D4C2117D54E0005C272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F83D532117D54E0005C272;
+			remoteInfo = PostcardRecord;
+		};
+		F1F83D782117D54F0005C272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1F83D4C2117D54E0005C272 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1F83D532117D54E0005C272;
+			remoteInfo = PostcardRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DDDE1082A29794C5CFC49B5 /* Pods-PostcardRecord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardRecord.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostcardRecord/Pods-PostcardRecord.debug.xcconfig"; sourceTree = "<group>"; };
+		159BB96B04F733CDDDB7E039 /* libPods-PostcardRecordTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostcardRecordTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286CFFAFE5A781B8E6DC3E20 /* Pods-PostcardRecord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardRecord.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostcardRecord/Pods-PostcardRecord.release.xcconfig"; sourceTree = "<group>"; };
+		3BE08A680CC85A6CF1EB5759 /* Pods-PostcardRecordUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardRecordUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostcardRecordUITests/Pods-PostcardRecordUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A313BCB617373AB8E30C4045 /* libPods-PostcardRecord.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostcardRecord.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9A379778E92E2CA8A0064B /* Pods-PostcardRecordUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardRecordUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostcardRecordUITests/Pods-PostcardRecordUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E34EA08F0CB378204C7E5ABE /* Pods-PostcardRecordTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardRecordTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PostcardRecordTests/Pods-PostcardRecordTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED66399E1328E7A4828963A7 /* Pods-PostcardRecordTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostcardRecordTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PostcardRecordTests/Pods-PostcardRecordTests.release.xcconfig"; sourceTree = "<group>"; };
+		F111B97F21197043000B862B /* SyncTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyncTool.h; sourceTree = "<group>"; };
+		F111B98021197043000B862B /* SyncTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyncTool.m; sourceTree = "<group>"; };
+		F111B983211970C8000B862B /* LoginTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginTool.h; sourceTree = "<group>"; };
+		F111B984211970C8000B862B /* LoginTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginTool.m; sourceTree = "<group>"; };
+		F111B987211971BF000B862B /* LeanCloudTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanCloudTool.h; sourceTree = "<group>"; };
+		F111B988211971BF000B862B /* LeanCloudTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeanCloudTool.m; sourceTree = "<group>"; };
+		F111B98A21197458000B862B /* Header_leanTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_leanTable.h; sourceTree = "<group>"; };
+		F111B98B211976E5000B862B /* Header_leanKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_leanKey.h; sourceTree = "<group>"; };
+		F111B98C211981C3000B862B /* Header_leanEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_leanEnum.h; sourceTree = "<group>"; };
+		F111B98E21199AA3000B862B /* XBAlertView_login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBAlertView_login.h; sourceTree = "<group>"; };
+		F111B98F21199AA3000B862B /* XBAlertView_login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBAlertView_login.m; sourceTree = "<group>"; };
+		F1F83D542117D54E0005C272 /* PostcardRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostcardRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F83D572117D54E0005C272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1F83D582117D54E0005C272 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1F83D5A2117D54E0005C272 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1F83D5B2117D54E0005C272 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1F83D5E2117D54E0005C272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1F83D602117D54E0005C272 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1F83D632117D54E0005C272 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1F83D652117D54F0005C272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F83D662117D54F0005C272 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1F83D6C2117D54F0005C272 /* PostcardRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F83D702117D54F0005C272 /* PostcardRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostcardRecordTests.m; sourceTree = "<group>"; };
+		F1F83D722117D54F0005C272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F83D772117D54F0005C272 /* PostcardRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F83D7B2117D54F0005C272 /* PostcardRecordUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostcardRecordUITests.m; sourceTree = "<group>"; };
+		F1F83D7D2117D54F0005C272 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1F83D8A2117D5730005C272 /* XBAppTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAppTool.m; sourceTree = "<group>"; };
+		F1F83D8C2117D5730005C272 /* XBAppTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAppTool.h; sourceTree = "<group>"; };
+		F1F83D912117D5FB0005C272 /* city.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.json; sourceTree = "<group>"; };
+		F1F83D962117D66E0005C272 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		F1F83D972117D66E0005C272 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		F1F83D982117D66E0005C272 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		F1F83D992117D66E0005C272 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		F1F83D9A2117D66E0005C272 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		F1F83D9B2117D66E0005C272 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		F1F83D9C2117D66E0005C272 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		F1F83D9D2117D66E0005C272 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		F1F83D9E2117D66E0005C272 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		F1F83D9F2117D66E0005C272 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		F1F83DA02117D66E0005C272 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		F1F83DA12117D66E0005C272 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		F1F83DA22117D66E0005C272 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		F1F83DA32117D66E0005C272 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		F1F83DA42117D66E0005C272 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		F1F83DA52117D66E0005C272 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		F1F83DA62117D66E0005C272 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		F1F83DA72117D66E0005C272 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		F1F83DA82117D66E0005C272 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		F1F83DA92117D66E0005C272 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		F1F83DAA2117D66E0005C272 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		F1F83DAB2117D66E0005C272 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F1F83DAC2117D66E0005C272 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F1F83DBD2117D7A70005C272 /* BaseBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBackViewController.m; sourceTree = "<group>"; };
+		F1F83DBE2117D7A70005C272 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		F1F83DBF2117D7A70005C272 /* BaseBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackViewController.h; sourceTree = "<group>"; };
+		F1F83DC02117D7A70005C272 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		F1F83DC42117D8290005C272 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		F1F83DC52117D8290005C272 /* UIColor+Extern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extern.m"; sourceTree = "<group>"; };
+		F1F83DC62117D82A0005C272 /* UIButton+Extern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extern.m"; sourceTree = "<group>"; };
+		F1F83DC72117D82B0005C272 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		F1F83DC82117D82D0005C272 /* UIButton+Extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extern.h"; sourceTree = "<group>"; };
+		F1F83DC92117D82E0005C272 /* UIColor+Extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extern.h"; sourceTree = "<group>"; };
+		F1F83DCD2117D83B0005C272 /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		F1F83DCE2117D83B0005C272 /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+		F1F83DD12117D8570005C272 /* XBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBButton.m; sourceTree = "<group>"; };
+		F1F83DD22117D8570005C272 /* XBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBButton.h; sourceTree = "<group>"; };
+		F1F83DD52117D87B0005C272 /* XBAlertViewConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAlertViewConfig.h; sourceTree = "<group>"; };
+		F1F83DD62117D87B0005C272 /* XBAlertView_MsgLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAlertView_MsgLeft.h; sourceTree = "<group>"; };
+		F1F83DD72117D87B0005C272 /* XBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAlertView.m; sourceTree = "<group>"; };
+		F1F83DD82117D87B0005C272 /* XBAlertView+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XBAlertView+Block.h"; sourceTree = "<group>"; };
+		F1F83DD92117D87B0005C272 /* XBAlertView_sharePay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAlertView_sharePay.h; sourceTree = "<group>"; };
+		F1F83DDA2117D87B0005C272 /* XBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAlertView.h; sourceTree = "<group>"; };
+		F1F83DDB2117D87B0005C272 /* XBAlertView_MsgLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAlertView_MsgLeft.m; sourceTree = "<group>"; };
+		F1F83DDC2117D87B0005C272 /* XBAlertView+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XBAlertView+Block.m"; sourceTree = "<group>"; };
+		F1F83DDD2117D87B0005C272 /* XBAlertView_sharePay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAlertView_sharePay.m; sourceTree = "<group>"; };
+		F1F83DDF2117D87B0005C272 /* XBAlertViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAlertViewManager.h; sourceTree = "<group>"; };
+		F1F83DE02117D87B0005C272 /* XBAlertViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAlertViewBase.m; sourceTree = "<group>"; };
+		F1F83DE12117D87B0005C272 /* XBAlertViewBase+Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XBAlertViewBase+Queue.m"; sourceTree = "<group>"; };
+		F1F83DE22117D87B0005C272 /* XBAlertViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAlertViewManager.m; sourceTree = "<group>"; };
+		F1F83DE32117D87B0005C272 /* XBAlertViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAlertViewBase.h; sourceTree = "<group>"; };
+		F1F83DE42117D87B0005C272 /* XBAlertViewBase+Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XBAlertViewBase+Queue.h"; sourceTree = "<group>"; };
+		F1F83DE62117D87C0005C272 /* XBWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBWaitingView.h; sourceTree = "<group>"; };
+		F1F83DE72117D87C0005C272 /* XBWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBWaitingView.m; sourceTree = "<group>"; };
+		F1F83DE92117D87C0005C272 /* XBActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBActionSheet.m; sourceTree = "<group>"; };
+		F1F83DEA2117D87C0005C272 /* XBActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBActionSheet.h; sourceTree = "<group>"; };
+		F1F83DEC2117D87C0005C272 /* XBTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTipView.m; sourceTree = "<group>"; };
+		F1F83DED2117D87C0005C272 /* XBTipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBTipView.h; sourceTree = "<group>"; };
+		F1F83DF92117D88A0005C272 /* XBLocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBLocalizedString.h; sourceTree = "<group>"; };
+		F1F83DFA2117D88A0005C272 /* XBLocalizedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBLocalizedString.m; sourceTree = "<group>"; };
+		F1F83DFE2117D8D40005C272 /* Header_City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_City.h; sourceTree = "<group>"; };
+		F1F83DFF2117D8D40005C272 /* Header_Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_Number.h; sourceTree = "<group>"; };
+		F1F83E002117D8D40005C272 /* XBDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDefine.h; sourceTree = "<group>"; };
+		F1F83E012117D8D40005C272 /* Header_Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_Color.h; sourceTree = "<group>"; };
+		F1F83E022117D8D40005C272 /* Header_Notice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_Notice.h; sourceTree = "<group>"; };
+		F1F83E032117D8D40005C272 /* Header_AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_AppConfig.h; sourceTree = "<group>"; };
+		F1F83E042117D8D40005C272 /* Header_block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_block.h; sourceTree = "<group>"; };
+		F1F83E052117D8D40005C272 /* Header_Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_Text.h; sourceTree = "<group>"; };
+		F1F83E062117D8D40005C272 /* Header_Enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_Enum.h; sourceTree = "<group>"; };
+		F1F83E072117D8D40005C272 /* Header_Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_Image.h; sourceTree = "<group>"; };
+		F1F83E082117D8D40005C272 /* Header_keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header_keys.h; sourceTree = "<group>"; };
+		F1F83E0A2117D8D40005C272 /* AnXin_language.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AnXin_language.bundle; sourceTree = "<group>"; };
+		F1F83E0D2117D8D40005C272 /* 待付款按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "待付款按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E0E2117D8D40005C272 /* 删除按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E0F2117D8D40005C272 /* 收起默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收起默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E102117D8D40005C272 /* 已完成按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已完成按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E112117D8D40005C272 /* 展开默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展开默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E122117D8D40005C272 /* 团@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "团@3x.png"; sourceTree = "<group>"; };
+		F1F83E132117D8D40005C272 /* 团@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "团@2x.png"; sourceTree = "<group>"; };
+		F1F83E142117D8D40005C272 /* 收起默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收起默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E152117D8D40005C272 /* 已完成按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已完成按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E162117D8D40005C272 /* 展开默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展开默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E172117D8D40005C272 /* 删除按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E182117D8D40005C272 /* 待付款按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "待付款按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E192117D8D40005C272 /* 取消默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E1A2117D8D40005C272 /* 已付款默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已付款默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E1B2117D8D40005C272 /* 余额支付@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "余额支付@3x.png"; sourceTree = "<group>"; };
+		F1F83E1C2117D8D40005C272 /* 余额支付@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "余额支付@2x.png"; sourceTree = "<group>"; };
+		F1F83E1D2117D8D40005C272 /* 已付款默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已付款默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E1E2117D8D40005C272 /* 取消默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E1F2117D8D40005C272 /* 取消按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E202117D8D40005C272 /* 食@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "食@2x.png"; sourceTree = "<group>"; };
+		F1F83E212117D8D40005C272 /* 已付款按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已付款按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E222117D8D40005C272 /* 已付款按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已付款按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E232117D8D40005C272 /* 食@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "食@3x.png"; sourceTree = "<group>"; };
+		F1F83E242117D8D40005C272 /* 取消按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "取消按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E252117D8D40005C272 /* 待付款默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "待付款默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E262117D8D40005C272 /* 删除默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E272117D8D40005C272 /* 已完成默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已完成默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E282117D8D40005C272 /* 展开按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展开按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E292117D8D40005C272 /* 收起按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收起按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E2A2117D8D40005C272 /* 已完成默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "已完成默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E2B2117D8D40005C272 /* 展开按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展开按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E2C2117D8D40005C272 /* 收起按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收起按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E2D2117D8D40005C272 /* 删除默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "删除默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E2E2117D8D40005C272 /* 待付款默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "待付款默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E302117D8D40005C272 /* 邀请团友按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请团友按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E312117D8D40005C272 /* 邀请团友按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请团友按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E322117D8D40005C272 /* 创建饭团默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "创建饭团默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E332117D8D40005C272 /* 新增团友默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新增团友默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E342117D8D40005C272 /* 通讯录导入默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录导入默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E352117D8D40005C272 /* 背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景@3x.png"; sourceTree = "<group>"; };
+		F1F83E362117D8D40005C272 /* 背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景@2x.png"; sourceTree = "<group>"; };
+		F1F83E372117D8D40005C272 /* 通讯录导入默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录导入默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E382117D8D40005C272 /* 新增团友默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新增团友默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E392117D8D40005C272 /* 创建饭团默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "创建饭团默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E3A2117D8D40005C272 /* 创建饭团按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "创建饭团按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E3B2117D8D40005C272 /* 通讯录导入按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录导入按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E3C2117D8D40005C272 /* 二维码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "二维码@2x.png"; sourceTree = "<group>"; };
+		F1F83E3D2117D8D40005C272 /* 新增团友按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新增团友按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E3E2117D8D40005C272 /* 新增团友按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新增团友按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E3F2117D8D40005C272 /* 二维码@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "二维码@3x.png"; sourceTree = "<group>"; };
+		F1F83E402117D8D40005C272 /* 通讯录导入按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通讯录导入按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E412117D8D40005C272 /* 创建饭团按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "创建饭团按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E422117D8D40005C272 /* 邀请团友默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请团友默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E432117D8D40005C272 /* 朋友圈@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友圈@3x.png"; sourceTree = "<group>"; };
+		F1F83E442117D8D40005C272 /* 朋友圈@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朋友圈@2x.png"; sourceTree = "<group>"; };
+		F1F83E452117D8D40005C272 /* 邀请团友默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请团友默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E472117D8D40005C272 /* 底部投影47@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部投影47@2x.png"; sourceTree = "<group>"; };
+		F1F83E482117D8D40005C272 /* 点餐当前@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点餐当前@2x.png"; sourceTree = "<group>"; };
+		F1F83E492117D8D40005C272 /* 饭团当前@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饭团当前@2x.png"; sourceTree = "<group>"; };
+		F1F83E4A2117D8D40005C272 /* 订单默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "订单默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E4B2117D8D40005C272 /* 我的默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E4C2117D8D40005C272 /* 我的默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E4D2117D8D40005C272 /* 订单默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "订单默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E4E2117D8D40005C272 /* 饭团当前@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饭团当前@3x.png"; sourceTree = "<group>"; };
+		F1F83E4F2117D8D40005C272 /* 点餐当前@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点餐当前@3x.png"; sourceTree = "<group>"; };
+		F1F83E502117D8D40005C272 /* 底部投影55@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部投影55@3x.png"; sourceTree = "<group>"; };
+		F1F83E512117D8D40005C272 /* 饭团默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饭团默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E522117D8D40005C272 /* 订单当前@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "订单当前@3x.png"; sourceTree = "<group>"; };
+		F1F83E532117D8D40005C272 /* 我的当前@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的当前@2x.png"; sourceTree = "<group>"; };
+		F1F83E542117D8D40005C272 /* 底部投影X@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部投影X@3x.png"; sourceTree = "<group>"; };
+		F1F83E552117D8D40005C272 /* 点餐默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点餐默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E562117D8D40005C272 /* 点餐默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点餐默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E572117D8D40005C272 /* 我的当前@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的当前@3x.png"; sourceTree = "<group>"; };
+		F1F83E582117D8D40005C272 /* 订单当前@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "订单当前@2x.png"; sourceTree = "<group>"; };
+		F1F83E592117D8D40005C272 /* 饭团默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饭团默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E5A2117D8D40005C272 /* 底部投影4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部投影4@2x.png"; sourceTree = "<group>"; };
+		F1F83E5C2117D8D40005C272 /* 返回按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E5D2117D8D40005C272 /* 返回按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E5E2117D8D40005C272 /* top背景58@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top背景58@3x.png"; sourceTree = "<group>"; };
+		F1F83E5F2117D8D40005C272 /* 关闭白色按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭白色按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E602117D8D40005C272 /* 关闭白色按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭白色按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E612117D8D40005C272 /* 关闭白色默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭白色默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E622117D8D40005C272 /* 关闭白色默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭白色默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E632117D8D40005C272 /* top背景4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top背景4@2x.png"; sourceTree = "<group>"; };
+		F1F83E642117D8D40005C272 /* top背景55@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top背景55@3x.png"; sourceTree = "<group>"; };
+		F1F83E652117D8D40005C272 /* 返回默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E662117D8D40005C272 /* 返回默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E672117D8D40005C272 /* top背景47@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "top背景47@2x.png"; sourceTree = "<group>"; };
+		F1F83E692117D8D40005C272 /* 人民币符号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人民币符号@3x.png"; sourceTree = "<group>"; };
+		F1F83E6A2117D8D40005C272 /* 我的背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的背景@3x.png"; sourceTree = "<group>"; };
+		F1F83E6B2117D8D40005C272 /* 默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E6C2117D8D40005C272 /* 前进白色按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "前进白色按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E6D2117D8D40005C272 /* 我的钱包背景@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包背景@3x.png"; sourceTree = "<group>"; };
+		F1F83E6E2117D8D40005C272 /* 设置默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E6F2117D8D40005C272 /* 联系我们按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "联系我们按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E702117D8D40005C272 /* 联系我们按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "联系我们按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E712117D8D40005C272 /* 设置默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E722117D8D40005C272 /* 我的钱包背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包背景@2x.png"; sourceTree = "<group>"; };
+		F1F83E732117D8D40005C272 /* 我的背景X@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的背景X@3x.png"; sourceTree = "<group>"; };
+		F1F83E742117D8D40005C272 /* 前进白色按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "前进白色按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E752117D8D40005C272 /* 我的背景@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的背景@2x.png"; sourceTree = "<group>"; };
+		F1F83E762117D8D40005C272 /* 默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E772117D8D40005C272 /* 人民币符号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人民币符号@2x.png"; sourceTree = "<group>"; };
+		F1F83E782117D8D40005C272 /* 我的钱包默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E792117D8D40005C272 /* 邀请默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E7A2117D8D40005C272 /* 地址默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地址默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E7B2117D8D40005C272 /* 头像默认.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像默认.png"; sourceTree = "<group>"; };
+		F1F83E7C2117D8D40005C272 /* 邀请默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E7D2117D8D40005C272 /* 地址默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地址默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E7E2117D8D40005C272 /* 我的钱包默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E7F2117D8D40005C272 /* inviteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inviteLogo.png; sourceTree = "<group>"; };
+		F1F83E802117D8D40005C272 /* 邀请按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E812117D8D40005C272 /* 地址按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地址按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E822117D8D40005C272 /* 我的钱包背景X@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包背景X@3x.png"; sourceTree = "<group>"; };
+		F1F83E832117D8D40005C272 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
+		F1F83E842117D8D40005C272 /* 我的钱包按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E852117D8D40005C272 /* 我的钱包按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E862117D8D40005C272 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		F1F83E872117D8D40005C272 /* 我的钱包背景X@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的钱包背景X@2x.png"; sourceTree = "<group>"; };
+		F1F83E882117D8D40005C272 /* 邀请按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "邀请按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E892117D8D40005C272 /* 地址按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地址按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E8A2117D8D40005C272 /* 前进白色默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "前进白色默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E8B2117D8D40005C272 /* 头像默认_群.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像默认_群.png"; sourceTree = "<group>"; };
+		F1F83E8C2117D8D40005C272 /* 设置按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置按下@2x.png"; sourceTree = "<group>"; };
+		F1F83E8D2117D8D40005C272 /* 联系我们默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "联系我们默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E8E2117D8D40005C272 /* 定位当前位置@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位当前位置@3x.png"; sourceTree = "<group>"; };
+		F1F83E8F2117D8D40005C272 /* 定位当前位置@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "定位当前位置@2x.png"; sourceTree = "<group>"; };
+		F1F83E902117D8D40005C272 /* 联系我们默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "联系我们默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E912117D8D40005C272 /* 设置按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E922117D8D40005C272 /* 前进白色默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "前进白色默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E942117D8D40005C272 /* 饭团头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饭团头像@2x.png"; sourceTree = "<group>"; };
+		F1F83E952117D8D40005C272 /* 重新定位默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新定位默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E962117D8D40005C272 /* 未选中默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E972117D8D40005C272 /* 减少默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减少默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E982117D8D40005C272 /* 增加按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "增加按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E992117D8D40005C272 /* 关闭默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭默认@3x.png"; sourceTree = "<group>"; };
+		F1F83E9A2117D8D40005C272 /* 支付宝@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付宝@2x.png"; sourceTree = "<group>"; };
+		F1F83E9B2117D8D40005C272 /* 无内容@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无内容@3x.png"; sourceTree = "<group>"; };
+		F1F83E9C2117D8D40005C272 /* 搜索浅灰@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索浅灰@3x.png"; sourceTree = "<group>"; };
+		F1F83E9D2117D8D40005C272 /* 选中默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中默认@2x.png"; sourceTree = "<group>"; };
+		F1F83E9E2117D8D40005C272 /* 进入按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入按下@3x.png"; sourceTree = "<group>"; };
+		F1F83E9F2117D8D40005C272 /* 添加按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EA02117D8D40005C272 /* 更新通知@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更新通知@3x.png"; sourceTree = "<group>"; };
+		F1F83EA12117D8D40005C272 /* 下拉箭头按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉箭头按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EA22117D8D40005C272 /* 地址@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地址@3x.png"; sourceTree = "<group>"; };
+		F1F83EA32117D8D40005C272 /* 晚@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "晚@3x.png"; sourceTree = "<group>"; };
+		F1F83EA42117D8D40005C272 /* 菜主图片@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菜主图片@2x.png"; sourceTree = "<group>"; };
+		F1F83EA52117D8D40005C272 /* 菜主图片@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菜主图片@3x.png"; sourceTree = "<group>"; };
+		F1F83EA62117D8D40005C272 /* 地址@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地址@2x.png"; sourceTree = "<group>"; };
+		F1F83EA72117D8D40005C272 /* 晚@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "晚@2x.png"; sourceTree = "<group>"; };
+		F1F83EA82117D8D40005C272 /* 下拉箭头按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉箭头按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EA92117D8D40005C272 /* 更新通知@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更新通知@2x.png"; sourceTree = "<group>"; };
+		F1F83EAA2117D8D40005C272 /* 添加按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EAB2117D8D40005C272 /* 进入按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EAC2117D8D40005C272 /* 搜索浅灰@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索浅灰@2x.png"; sourceTree = "<group>"; };
+		F1F83EAD2117D8D40005C272 /* 选中默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EAE2117D8D40005C272 /* 无内容@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无内容@2x.png"; sourceTree = "<group>"; };
+		F1F83EAF2117D8D40005C272 /* 关闭默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EB02117D8D40005C272 /* 支付宝@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "支付宝@3x.png"; sourceTree = "<group>"; };
+		F1F83EB12117D8D40005C272 /* 增加按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "增加按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EB22117D8D40005C272 /* 减少默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减少默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EB32117D8D40005C272 /* 重新定位默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新定位默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EB42117D8D40005C272 /* 未选中默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EB52117D8D40005C272 /* 饭团头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饭团头像@3x.png"; sourceTree = "<group>"; };
+		F1F83EB62117D8D40005C272 /* xxxx活动.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xxxx活动.png"; sourceTree = "<group>"; };
+		F1F83EB72117D8D40005C272 /* 标题装饰@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题装饰@3x.png"; sourceTree = "<group>"; };
+		F1F83EB82117D8D40005C272 /* 养生食疗按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "养生食疗按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EB92117D8D40005C272 /* tip-警示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip-警示.png"; sourceTree = "<group>"; };
+		F1F83EBA2117D8D40005C272 /* 购物车@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车@2x.png"; sourceTree = "<group>"; };
+		F1F83EBB2117D8D40005C272 /* 消息默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EBC2117D8D40005C272 /* 搜索白色按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索白色按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EBD2117D8D40005C272 /* 转发按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转发按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EBE2117D8D40005C272 /* 微信支付@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信支付@3x.png"; sourceTree = "<group>"; };
+		F1F83EBF2117D8D40005C272 /* 团餐预定按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "团餐预定按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EC02117D8D40005C272 /* 消息提示1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息提示1@2x.png"; sourceTree = "<group>"; };
+		F1F83EC12117D8D40005C272 /* 消息提示1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息提示1@3x.png"; sourceTree = "<group>"; };
+		F1F83EC22117D8D40005C272 /* 团餐预定按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "团餐预定按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EC32117D8D40005C272 /* 微信支付@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信支付@2x.png"; sourceTree = "<group>"; };
+		F1F83EC42117D8D40005C272 /* 转发按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转发按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EC52117D8D40005C272 /* 消息默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EC62117D8D40005C272 /* 搜索白色按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索白色按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EC72117D8D40005C272 /* 购物车@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车@3x.png"; sourceTree = "<group>"; };
+		F1F83EC82117D8D40005C272 /* tip-成功.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip-成功.png"; sourceTree = "<group>"; };
+		F1F83EC92117D8D40005C272 /* 养生食疗按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "养生食疗按下@3x.png"; sourceTree = "<group>"; };
+		F1F83ECA2117D8D50005C272 /* 标题装饰@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题装饰@2x.png"; sourceTree = "<group>"; };
+		F1F83ECB2117D8D50005C272 /* tip-失败.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip-失败.png"; sourceTree = "<group>"; };
+		F1F83ECC2117D8D50005C272 /* 通知默认图@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知默认图@3x.png"; sourceTree = "<group>"; };
+		F1F83ECD2117D8D50005C272 /* 养生食疗默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "养生食疗默认@3x.png"; sourceTree = "<group>"; };
+		F1F83ECE2117D8D50005C272 /* 团餐预定默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "团餐预定默认@3x.png"; sourceTree = "<group>"; };
+		F1F83ECF2117D8D50005C272 /* 搜索深灰@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索深灰@3x.png"; sourceTree = "<group>"; };
+		F1F83ED02117D8D50005C272 /* 搜索白色默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索白色默认@2x.png"; sourceTree = "<group>"; };
+		F1F83ED12117D8D50005C272 /* 消息按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息按下@2x.png"; sourceTree = "<group>"; };
+		F1F83ED22117D8D50005C272 /* 转发默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转发默认@2x.png"; sourceTree = "<group>"; };
+		F1F83ED32117D8D50005C272 /* 播放按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放按钮.png"; sourceTree = "<group>"; };
+		F1F83ED42117D8D50005C272 /* 转发默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "转发默认@3x.png"; sourceTree = "<group>"; };
+		F1F83ED52117D8D50005C272 /* 搜索深灰@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索深灰@2x.png"; sourceTree = "<group>"; };
+		F1F83ED62117D8D50005C272 /* 搜索白色默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索白色默认@3x.png"; sourceTree = "<group>"; };
+		F1F83ED72117D8D50005C272 /* 消息按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息按下@3x.png"; sourceTree = "<group>"; };
+		F1F83ED82117D8D50005C272 /* 团餐预定默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "团餐预定默认@2x.png"; sourceTree = "<group>"; };
+		F1F83ED92117D8D50005C272 /* 养生食疗默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "养生食疗默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EDA2117D8D50005C272 /* tip-加载.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip-加载.png"; sourceTree = "<group>"; };
+		F1F83EDB2117D8D50005C272 /* 通知默认图@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通知默认图@2x.png"; sourceTree = "<group>"; };
+		F1F83EDC2117D8D50005C272 /* xxxx订单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xxxx订单.png"; sourceTree = "<group>"; };
+		F1F83EDD2117D8D50005C272 /* 增加默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "增加默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EDE2117D8D50005C272 /* 减少按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减少按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EDF2117D8D50005C272 /* 未选中按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EE02117D8D50005C272 /* 重新定位按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新定位按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EE12117D8D50005C272 /* 午@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "午@2x.png"; sourceTree = "<group>"; };
+		F1F83EE22117D8D50005C272 /* 播放按钮按下.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "播放按钮按下.png"; sourceTree = "<group>"; };
+		F1F83EE32117D8D50005C272 /* 消息提示2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息提示2@3x.png"; sourceTree = "<group>"; };
+		F1F83EE42117D8D50005C272 /* 进入默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EE52117D8D50005C272 /* 选中按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EE62117D8D50005C272 /* 关闭按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EE72117D8D50005C272 /* 下拉箭头默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉箭头默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EE82117D8D50005C272 /* 购物车空@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车空@2x.png"; sourceTree = "<group>"; };
+		F1F83EE92117D8D50005C272 /* banner@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@3x.png"; sourceTree = "<group>"; };
+		F1F83EEA2117D8D50005C272 /* 添加默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EEB2117D8D50005C272 /* 列表头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表头像@2x.png"; sourceTree = "<group>"; };
+		F1F83EEC2117D8D50005C272 /* 列表头像@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表头像@3x.png"; sourceTree = "<group>"; };
+		F1F83EED2117D8D50005C272 /* 添加默认@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "添加默认@2x.png"; sourceTree = "<group>"; };
+		F1F83EEE2117D8D50005C272 /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
+		F1F83EEF2117D8D50005C272 /* 下拉箭头默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉箭头默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EF02117D8D50005C272 /* 购物车空@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车空@3x.png"; sourceTree = "<group>"; };
+		F1F83EF12117D8D50005C272 /* 关闭按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关闭按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EF22117D8D50005C272 /* tip-繁忙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tip-繁忙.png"; sourceTree = "<group>"; };
+		F1F83EF32117D8D50005C272 /* 选中按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EF42117D8D50005C272 /* 消息提示2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息提示2@2x.png"; sourceTree = "<group>"; };
+		F1F83EF52117D8D50005C272 /* 进入默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EF62117D8D50005C272 /* 未选中按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EF72117D8D50005C272 /* 重新定位按下@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新定位按下@2x.png"; sourceTree = "<group>"; };
+		F1F83EF82117D8D50005C272 /* 午@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "午@3x.png"; sourceTree = "<group>"; };
+		F1F83EF92117D8D50005C272 /* 减少按下@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "减少按下@3x.png"; sourceTree = "<group>"; };
+		F1F83EFA2117D8D50005C272 /* 增加默认@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "增加默认@3x.png"; sourceTree = "<group>"; };
+		F1F83EFC2117D8D50005C272 /* QQ@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ@2x.png"; sourceTree = "<group>"; };
+		F1F83EFD2117D8D50005C272 /* QQ@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ@3x.png"; sourceTree = "<group>"; };
+		F1F83EFE2117D8D50005C272 /* 手机@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机@3x.png"; sourceTree = "<group>"; };
+		F1F83EFF2117D8D50005C272 /* 手机@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "手机@2x.png"; sourceTree = "<group>"; };
+		F1F83F002117D8D50005C272 /* 验证码@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码@3x.png"; sourceTree = "<group>"; };
+		F1F83F012117D8D50005C272 /* 微信@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信@3x.png"; sourceTree = "<group>"; };
+		F1F83F022117D8D50005C272 /* 微信@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信@2x.png"; sourceTree = "<group>"; };
+		F1F83F032117D8D50005C272 /* 验证码@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "验证码@2x.png"; sourceTree = "<group>"; };
+		F1F83FF62117D8F70005C272 /* UIView+AdaptKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AdaptKeyboard.h"; sourceTree = "<group>"; };
+		F1F83FF72117D8F80005C272 /* UIView+AdaptKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AdaptKeyboard.m"; sourceTree = "<group>"; };
+		F1F83FF92117D9600005C272 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F1F83FFB2117DAEE0005C272 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F1F83FFD2117DAEE0005C272 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		F1F83FFE2117DAEE0005C272 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F1F83FFF2117DAEE0005C272 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		F1F840002117DAEE0005C272 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		F1F840012117DAEE0005C272 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F1F840022117DAEE0005C272 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		F1F840032117DAEE0005C272 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		F1F840042117DAEE0005C272 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F1F840052117DAEE0005C272 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		F1F840062117DAEE0005C272 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		F1F840072117DAEE0005C272 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		F1F840082117DAEE0005C272 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		F1F840092117DAEE0005C272 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		F1F8400A2117DAEE0005C272 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		F1F8400B2117DAEE0005C272 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		F1F8400C2117DAEE0005C272 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		F1F8400D2117DAEE0005C272 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		F1F8400E2117DAEE0005C272 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		F1F8400F2117DAEE0005C272 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		F1F840102117DAEE0005C272 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F1F840112117DAEE0005C272 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		F1F840122117DAEE0005C272 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		F1F840132117DAEE0005C272 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		F1F840142117DAEE0005C272 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		F1F840152117DAEE0005C272 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		F1F840162117DAEE0005C272 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F1F840232117DBDC0005C272 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		F1F840242117DBDD0005C272 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		F1F840262117DC7C0005C272 /* NSMutableAttributedString+XBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+XBExtension.h"; sourceTree = "<group>"; };
+		F1F840272117DC7C0005C272 /* NSMutableAttributedString+XBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+XBExtension.m"; sourceTree = "<group>"; };
+		F1F840292117DD8B0005C272 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
+		F1F8402A2117DD8B0005C272 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		F1F8402B2117DD8B0005C272 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
+		F1F8402C2117DD8B0005C272 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		F1F840302117DED60005C272 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F1F840312117DED60005C272 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F1F840332117F6970005C272 /* CountryModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryModel.h; sourceTree = "<group>"; };
+		F1F840342117F6970005C272 /* CountryModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountryModel.m; sourceTree = "<group>"; };
+		F1F840362117F7460005C272 /* CityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		F1F840372117F7470005C272 /* CityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		F1F840392117F78C0005C272 /* RegionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegionModel.h; sourceTree = "<group>"; };
+		F1F8403A2117F78C0005C272 /* RegionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegionModel.m; sourceTree = "<group>"; };
+		F1F840452117F9100005C272 /* CityTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTool.m; sourceTree = "<group>"; };
+		F1F840462117F9100005C272 /* CityTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTool.h; sourceTree = "<group>"; };
+		F1F84048211821620005C272 /* AddSeriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddSeriesViewController.h; sourceTree = "<group>"; };
+		F1F84049211821620005C272 /* AddSeriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddSeriesViewController.m; sourceTree = "<group>"; };
+		F1F8404B2118256F0005C272 /* XBAlertView_inputPWD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBAlertView_inputPWD.h; sourceTree = "<group>"; };
+		F1F8404C211825700005C272 /* XBAlertView_inputPWD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBAlertView_inputPWD.m; sourceTree = "<group>"; };
+		F1F8404E211829800005C272 /* SeriesModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeriesModel.h; sourceTree = "<group>"; };
+		F1F8404F211829800005C272 /* SeriesModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeriesModel.m; sourceTree = "<group>"; };
+		F1F840522118312A0005C272 /* SeriesTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeriesTool.h; sourceTree = "<group>"; };
+		F1F840532118312A0005C272 /* SeriesTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeriesTool.m; sourceTree = "<group>"; };
+		F1F840552118406B0005C272 /* SeriesDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeriesDetailViewController.h; sourceTree = "<group>"; };
+		F1F840562118406B0005C272 /* SeriesDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeriesDetailViewController.m; sourceTree = "<group>"; };
+		F1F840582118423E0005C272 /* SeriesDetailTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeriesDetailTool.h; sourceTree = "<group>"; };
+		F1F840592118423E0005C272 /* SeriesDetailTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeriesDetailTool.m; sourceTree = "<group>"; };
+		F1F8405E21184F2D0005C272 /* SeriesDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeriesDetailModel.h; sourceTree = "<group>"; };
+		F1F8405F21184F2D0005C272 /* SeriesDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeriesDetailModel.m; sourceTree = "<group>"; };
+		F1F840622118536C0005C272 /* XBFloatMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBFloatMenuView.h; sourceTree = "<group>"; };
+		F1F840632118536C0005C272 /* XBFloatMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBFloatMenuView.m; sourceTree = "<group>"; };
+		F1F84065211853BD0005C272 /* UIView+FrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameLayout.m"; sourceTree = "<group>"; };
+		F1F84066211853BE0005C272 /* UIView+FrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameLayout.h"; sourceTree = "<group>"; };
+		F1F84068211932C00005C272 /* AddUnHaveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddUnHaveViewController.h; sourceTree = "<group>"; };
+		F1F84069211932C00005C272 /* AddUnHaveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddUnHaveViewController.m; sourceTree = "<group>"; };
+		FBD0B8B059444D9F22323028 /* libPods-PostcardRecordUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostcardRecordUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1F83D512117D54E0005C272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CD51CE69B5F1EE42082843 /* libPods-PostcardRecord.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F83D692117D54F0005C272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3853C311C60BE95E4BA0538A /* libPods-PostcardRecordTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F83D742117D54F0005C272 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F530A825B9DB752B4262CBB3 /* libPods-PostcardRecordUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138C023DC420D8730890F9FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DDDE1082A29794C5CFC49B5 /* Pods-PostcardRecord.debug.xcconfig */,
+				286CFFAFE5A781B8E6DC3E20 /* Pods-PostcardRecord.release.xcconfig */,
+				E34EA08F0CB378204C7E5ABE /* Pods-PostcardRecordTests.debug.xcconfig */,
+				ED66399E1328E7A4828963A7 /* Pods-PostcardRecordTests.release.xcconfig */,
+				DC9A379778E92E2CA8A0064B /* Pods-PostcardRecordUITests.debug.xcconfig */,
+				3BE08A680CC85A6CF1EB5759 /* Pods-PostcardRecordUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2340C59648A716A2A0F9B1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A313BCB617373AB8E30C4045 /* libPods-PostcardRecord.a */,
+				159BB96B04F733CDDDB7E039 /* libPods-PostcardRecordTests.a */,
+				FBD0B8B059444D9F22323028 /* libPods-PostcardRecordUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F111B97E21197031000B862B /* SyncTool */ = {
+			isa = PBXGroup;
+			children = (
+				F111B97F21197043000B862B /* SyncTool.h */,
+				F111B98021197043000B862B /* SyncTool.m */,
+			);
+			path = SyncTool;
+			sourceTree = "<group>";
+		};
+		F111B982211970B4000B862B /* LoginTool */ = {
+			isa = PBXGroup;
+			children = (
+				F111B983211970C8000B862B /* LoginTool.h */,
+				F111B984211970C8000B862B /* LoginTool.m */,
+			);
+			path = LoginTool;
+			sourceTree = "<group>";
+		};
+		F111B986211971B5000B862B /* LeanCloudTool */ = {
+			isa = PBXGroup;
+			children = (
+				F111B987211971BF000B862B /* LeanCloudTool.h */,
+				F111B988211971BF000B862B /* LeanCloudTool.m */,
+				F111B98A21197458000B862B /* Header_leanTable.h */,
+				F111B98B211976E5000B862B /* Header_leanKey.h */,
+				F111B98C211981C3000B862B /* Header_leanEnum.h */,
+			);
+			path = LeanCloudTool;
+			sourceTree = "<group>";
+		};
+		F1F83D4B2117D54E0005C272 = {
+			isa = PBXGroup;
+			children = (
+				F1F83D562117D54E0005C272 /* PostcardRecord */,
+				F1F83D6F2117D54F0005C272 /* PostcardRecordTests */,
+				F1F83D7A2117D54F0005C272 /* PostcardRecordUITests */,
+				F1F83D552117D54E0005C272 /* Products */,
+				138C023DC420D8730890F9FF /* Pods */,
+				A2340C59648A716A2A0F9B1D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1F83D552117D54E0005C272 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83D542117D54E0005C272 /* PostcardRecord.app */,
+				F1F83D6C2117D54F0005C272 /* PostcardRecordTests.xctest */,
+				F1F83D772117D54F0005C272 /* PostcardRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F83D562117D54E0005C272 /* PostcardRecord */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DFC2117D8D40005C272 /* SupportingFiles */,
+				F1F83DC32117D8080005C272 /* Category */,
+				F1F83DBB2117D7760005C272 /* Controller */,
+				F1F83DBA2117D7680005C272 /* View */,
+				F1F83DB92117D75F0005C272 /* Model */,
+				F1F83D932117D6630005C272 /* Utils */,
+				F1F83D902117D5F30005C272 /* Source */,
+				F1F83D892117D5730005C272 /* AppTool */,
+				F1F83D572117D54E0005C272 /* AppDelegate.h */,
+				F1F83D582117D54E0005C272 /* AppDelegate.m */,
+				F1F83D5A2117D54E0005C272 /* ViewController.h */,
+				F1F83D5B2117D54E0005C272 /* ViewController.m */,
+				F1F83D5D2117D54E0005C272 /* Main.storyboard */,
+				F1F83D602117D54E0005C272 /* Assets.xcassets */,
+				F1F83D622117D54E0005C272 /* LaunchScreen.storyboard */,
+				F1F83D652117D54F0005C272 /* Info.plist */,
+				F1F83D662117D54F0005C272 /* main.m */,
+				F1F83FF92117D9600005C272 /* PrefixHeader.pch */,
+			);
+			path = PostcardRecord;
+			sourceTree = "<group>";
+		};
+		F1F83D6F2117D54F0005C272 /* PostcardRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83D702117D54F0005C272 /* PostcardRecordTests.m */,
+				F1F83D722117D54F0005C272 /* Info.plist */,
+			);
+			path = PostcardRecordTests;
+			sourceTree = "<group>";
+		};
+		F1F83D7A2117D54F0005C272 /* PostcardRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83D7B2117D54F0005C272 /* PostcardRecordUITests.m */,
+				F1F83D7D2117D54F0005C272 /* Info.plist */,
+			);
+			path = PostcardRecordUITests;
+			sourceTree = "<group>";
+		};
+		F1F83D892117D5730005C272 /* AppTool */ = {
+			isa = PBXGroup;
+			children = (
+				F111B986211971B5000B862B /* LeanCloudTool */,
+				F111B982211970B4000B862B /* LoginTool */,
+				F111B97E21197031000B862B /* SyncTool */,
+				F1F840512118311E0005C272 /* SeriesTool */,
+				F1F840442117F9100005C272 /* CityTool */,
+				F1F83D8A2117D5730005C272 /* XBAppTool.m */,
+				F1F83D8C2117D5730005C272 /* XBAppTool.h */,
+			);
+			path = AppTool;
+			sourceTree = "<group>";
+		};
+		F1F83D902117D5F30005C272 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83D912117D5FB0005C272 /* city.json */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		F1F83D932117D6630005C272 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1F84061211853620005C272 /* GroupAddMenuView */,
+				F1F83FFA2117DAEE0005C272 /* Masonry */,
+				F1F83DF82117D88A0005C272 /* XBLocalizedString */,
+				F1F83DE82117D87C0005C272 /* XBActionSheet */,
+				F1F83DD42117D87B0005C272 /* XBAlertView */,
+				F1F83DDE2117D87B0005C272 /* XBAlertViewBase */,
+				F1F83DEB2117D87C0005C272 /* XBTipView */,
+				F1F83DE52117D87C0005C272 /* XBWaitingView */,
+				F1F83DD02117D8560005C272 /* XBButton */,
+				F1F83D942117D66E0005C272 /* MJExtension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F1F83D942117D66E0005C272 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83D952117D66E0005C272 /* MJExtension */,
+				F1F83DAB2117D66E0005C272 /* LICENSE */,
+				F1F83DAC2117D66E0005C272 /* README.md */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		F1F83D952117D66E0005C272 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83D962117D66E0005C272 /* MJPropertyKey.h */,
+				F1F83D972117D66E0005C272 /* NSObject+MJClass.h */,
+				F1F83D982117D66E0005C272 /* NSString+MJExtension.h */,
+				F1F83D992117D66E0005C272 /* MJPropertyType.m */,
+				F1F83D9A2117D66E0005C272 /* NSObject+MJProperty.h */,
+				F1F83D9B2117D66E0005C272 /* MJExtensionConst.h */,
+				F1F83D9C2117D66E0005C272 /* NSObject+MJKeyValue.m */,
+				F1F83D9D2117D66E0005C272 /* MJProperty.m */,
+				F1F83D9E2117D66E0005C272 /* MJFoundation.h */,
+				F1F83D9F2117D66E0005C272 /* NSObject+MJCoding.m */,
+				F1F83DA02117D66E0005C272 /* MJExtension.h */,
+				F1F83DA12117D66E0005C272 /* MJExtensionConst.m */,
+				F1F83DA22117D66E0005C272 /* NSObject+MJProperty.m */,
+				F1F83DA32117D66E0005C272 /* MJPropertyType.h */,
+				F1F83DA42117D66E0005C272 /* NSObject+MJClass.m */,
+				F1F83DA52117D66E0005C272 /* NSString+MJExtension.m */,
+				F1F83DA62117D66E0005C272 /* MJPropertyKey.m */,
+				F1F83DA72117D66E0005C272 /* MJProperty.h */,
+				F1F83DA82117D66E0005C272 /* NSObject+MJKeyValue.h */,
+				F1F83DA92117D66E0005C272 /* NSObject+MJCoding.h */,
+				F1F83DAA2117D66E0005C272 /* MJFoundation.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		F1F83DB92117D75F0005C272 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1F840332117F6970005C272 /* CountryModel.h */,
+				F1F840342117F6970005C272 /* CountryModel.m */,
+				F1F840362117F7460005C272 /* CityModel.h */,
+				F1F840372117F7470005C272 /* CityModel.m */,
+				F1F840392117F78C0005C272 /* RegionModel.h */,
+				F1F8403A2117F78C0005C272 /* RegionModel.m */,
+				F1F8404E211829800005C272 /* SeriesModel.h */,
+				F1F8404F211829800005C272 /* SeriesModel.m */,
+				F1F8405E21184F2D0005C272 /* SeriesDetailModel.h */,
+				F1F8405F21184F2D0005C272 /* SeriesDetailModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1F83DBA2117D7680005C272 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F1F83DBB2117D7760005C272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1F8402F2117DEC30005C272 /* Main */,
+				F1F83DBC2117D7A70005C272 /* base */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F1F83DBC2117D7A70005C272 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DBD2117D7A70005C272 /* BaseBackViewController.m */,
+				F1F83DBE2117D7A70005C272 /* BaseViewController.m */,
+				F1F83DBF2117D7A70005C272 /* BaseBackViewController.h */,
+				F1F83DC02117D7A70005C272 /* BaseViewController.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		F1F83DC32117D8080005C272 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F1F84066211853BE0005C272 /* UIView+FrameLayout.h */,
+				F1F84065211853BD0005C272 /* UIView+FrameLayout.m */,
+				F1F840292117DD8B0005C272 /* UINavigation+SXFixSpace.h */,
+				F1F8402B2117DD8B0005C272 /* UINavigation+SXFixSpace.m */,
+				F1F8402A2117DD8B0005C272 /* NSObject+SXRuntime.h */,
+				F1F8402C2117DD8B0005C272 /* NSObject+SXRuntime.m */,
+				F1F840262117DC7C0005C272 /* NSMutableAttributedString+XBExtension.h */,
+				F1F840272117DC7C0005C272 /* NSMutableAttributedString+XBExtension.m */,
+				F1F83FF62117D8F70005C272 /* UIView+AdaptKeyboard.h */,
+				F1F83FF72117D8F80005C272 /* UIView+AdaptKeyboard.m */,
+				F1F83DCD2117D83B0005C272 /* UIImage+ColorImage.h */,
+				F1F83DCE2117D83B0005C272 /* UIImage+ColorImage.m */,
+				F1F83DC82117D82D0005C272 /* UIButton+Extern.h */,
+				F1F83DC62117D82A0005C272 /* UIButton+Extern.m */,
+				F1F83DC92117D82E0005C272 /* UIColor+Extern.h */,
+				F1F83DC52117D8290005C272 /* UIColor+Extern.m */,
+				F1F83DC42117D8290005C272 /* UIView+Category.h */,
+				F1F83DC72117D82B0005C272 /* UIView+Category.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F1F83DD02117D8560005C272 /* XBButton */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DD12117D8570005C272 /* XBButton.m */,
+				F1F83DD22117D8570005C272 /* XBButton.h */,
+			);
+			path = XBButton;
+			sourceTree = "<group>";
+		};
+		F1F83DD42117D87B0005C272 /* XBAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F1F8404B2118256F0005C272 /* XBAlertView_inputPWD.h */,
+				F1F8404C211825700005C272 /* XBAlertView_inputPWD.m */,
+				F1F840232117DBDC0005C272 /* UIView+Animation.h */,
+				F1F840242117DBDD0005C272 /* UIView+Animation.m */,
+				F1F83DD52117D87B0005C272 /* XBAlertViewConfig.h */,
+				F1F83DD62117D87B0005C272 /* XBAlertView_MsgLeft.h */,
+				F1F83DD72117D87B0005C272 /* XBAlertView.m */,
+				F1F83DD82117D87B0005C272 /* XBAlertView+Block.h */,
+				F1F83DD92117D87B0005C272 /* XBAlertView_sharePay.h */,
+				F1F83DDA2117D87B0005C272 /* XBAlertView.h */,
+				F1F83DDB2117D87B0005C272 /* XBAlertView_MsgLeft.m */,
+				F1F83DDC2117D87B0005C272 /* XBAlertView+Block.m */,
+				F1F83DDD2117D87B0005C272 /* XBAlertView_sharePay.m */,
+				F111B98E21199AA3000B862B /* XBAlertView_login.h */,
+				F111B98F21199AA3000B862B /* XBAlertView_login.m */,
+			);
+			path = XBAlertView;
+			sourceTree = "<group>";
+		};
+		F1F83DDE2117D87B0005C272 /* XBAlertViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DDF2117D87B0005C272 /* XBAlertViewManager.h */,
+				F1F83DE02117D87B0005C272 /* XBAlertViewBase.m */,
+				F1F83DE12117D87B0005C272 /* XBAlertViewBase+Queue.m */,
+				F1F83DE22117D87B0005C272 /* XBAlertViewManager.m */,
+				F1F83DE32117D87B0005C272 /* XBAlertViewBase.h */,
+				F1F83DE42117D87B0005C272 /* XBAlertViewBase+Queue.h */,
+			);
+			path = XBAlertViewBase;
+			sourceTree = "<group>";
+		};
+		F1F83DE52117D87C0005C272 /* XBWaitingView */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DE62117D87C0005C272 /* XBWaitingView.h */,
+				F1F83DE72117D87C0005C272 /* XBWaitingView.m */,
+			);
+			path = XBWaitingView;
+			sourceTree = "<group>";
+		};
+		F1F83DE82117D87C0005C272 /* XBActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DE92117D87C0005C272 /* XBActionSheet.m */,
+				F1F83DEA2117D87C0005C272 /* XBActionSheet.h */,
+			);
+			path = XBActionSheet;
+			sourceTree = "<group>";
+		};
+		F1F83DEB2117D87C0005C272 /* XBTipView */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DEC2117D87C0005C272 /* XBTipView.m */,
+				F1F83DED2117D87C0005C272 /* XBTipView.h */,
+			);
+			path = XBTipView;
+			sourceTree = "<group>";
+		};
+		F1F83DF82117D88A0005C272 /* XBLocalizedString */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DF92117D88A0005C272 /* XBLocalizedString.h */,
+				F1F83DFA2117D88A0005C272 /* XBLocalizedString.m */,
+			);
+			path = XBLocalizedString;
+			sourceTree = "<group>";
+		};
+		F1F83DFC2117D8D40005C272 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DFD2117D8D40005C272 /* ConfigFiles */,
+				F1F83E092117D8D40005C272 /* LanguageBundle */,
+				F1F83E0B2117D8D40005C272 /* Images */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F1F83DFD2117D8D40005C272 /* ConfigFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83DFE2117D8D40005C272 /* Header_City.h */,
+				F1F83DFF2117D8D40005C272 /* Header_Number.h */,
+				F1F83E002117D8D40005C272 /* XBDefine.h */,
+				F1F83E012117D8D40005C272 /* Header_Color.h */,
+				F1F83E022117D8D40005C272 /* Header_Notice.h */,
+				F1F83E032117D8D40005C272 /* Header_AppConfig.h */,
+				F1F83E042117D8D40005C272 /* Header_block.h */,
+				F1F83E052117D8D40005C272 /* Header_Text.h */,
+				F1F83E062117D8D40005C272 /* Header_Enum.h */,
+				F1F83E072117D8D40005C272 /* Header_Image.h */,
+				F1F83E082117D8D40005C272 /* Header_keys.h */,
+			);
+			path = ConfigFiles;
+			sourceTree = "<group>";
+		};
+		F1F83E092117D8D40005C272 /* LanguageBundle */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E0A2117D8D40005C272 /* AnXin_language.bundle */,
+			);
+			path = LanguageBundle;
+			sourceTree = "<group>";
+		};
+		F1F83E0B2117D8D40005C272 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E0C2117D8D40005C272 /* order */,
+				F1F83E2F2117D8D40005C272 /* group */,
+				F1F83E462117D8D40005C272 /* tabbar */,
+				F1F83E5B2117D8D40005C272 /* navigationBar */,
+				F1F83E682117D8D40005C272 /* mine */,
+				F1F83E932117D8D40005C272 /* main */,
+				F1F83EFB2117D8D50005C272 /* login */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F1F83E0C2117D8D40005C272 /* order */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E0D2117D8D40005C272 /* 待付款按下@2x.png */,
+				F1F83E0E2117D8D40005C272 /* 删除按下@2x.png */,
+				F1F83E0F2117D8D40005C272 /* 收起默认@3x.png */,
+				F1F83E102117D8D40005C272 /* 已完成按下@3x.png */,
+				F1F83E112117D8D40005C272 /* 展开默认@3x.png */,
+				F1F83E122117D8D40005C272 /* 团@3x.png */,
+				F1F83E132117D8D40005C272 /* 团@2x.png */,
+				F1F83E142117D8D40005C272 /* 收起默认@2x.png */,
+				F1F83E152117D8D40005C272 /* 已完成按下@2x.png */,
+				F1F83E162117D8D40005C272 /* 展开默认@2x.png */,
+				F1F83E172117D8D40005C272 /* 删除按下@3x.png */,
+				F1F83E182117D8D40005C272 /* 待付款按下@3x.png */,
+				F1F83E192117D8D40005C272 /* 取消默认@3x.png */,
+				F1F83E1A2117D8D40005C272 /* 已付款默认@3x.png */,
+				F1F83E1B2117D8D40005C272 /* 余额支付@3x.png */,
+				F1F83E1C2117D8D40005C272 /* 余额支付@2x.png */,
+				F1F83E1D2117D8D40005C272 /* 已付款默认@2x.png */,
+				F1F83E1E2117D8D40005C272 /* 取消默认@2x.png */,
+				F1F83E1F2117D8D40005C272 /* 取消按下@2x.png */,
+				F1F83E202117D8D40005C272 /* 食@2x.png */,
+				F1F83E212117D8D40005C272 /* 已付款按下@2x.png */,
+				F1F83E222117D8D40005C272 /* 已付款按下@3x.png */,
+				F1F83E232117D8D40005C272 /* 食@3x.png */,
+				F1F83E242117D8D40005C272 /* 取消按下@3x.png */,
+				F1F83E252117D8D40005C272 /* 待付款默认@3x.png */,
+				F1F83E262117D8D40005C272 /* 删除默认@3x.png */,
+				F1F83E272117D8D40005C272 /* 已完成默认@2x.png */,
+				F1F83E282117D8D40005C272 /* 展开按下@2x.png */,
+				F1F83E292117D8D40005C272 /* 收起按下@2x.png */,
+				F1F83E2A2117D8D40005C272 /* 已完成默认@3x.png */,
+				F1F83E2B2117D8D40005C272 /* 展开按下@3x.png */,
+				F1F83E2C2117D8D40005C272 /* 收起按下@3x.png */,
+				F1F83E2D2117D8D40005C272 /* 删除默认@2x.png */,
+				F1F83E2E2117D8D40005C272 /* 待付款默认@2x.png */,
+			);
+			path = order;
+			sourceTree = "<group>";
+		};
+		F1F83E2F2117D8D40005C272 /* group */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E302117D8D40005C272 /* 邀请团友按下@2x.png */,
+				F1F83E312117D8D40005C272 /* 邀请团友按下@3x.png */,
+				F1F83E322117D8D40005C272 /* 创建饭团默认@3x.png */,
+				F1F83E332117D8D40005C272 /* 新增团友默认@2x.png */,
+				F1F83E342117D8D40005C272 /* 通讯录导入默认@2x.png */,
+				F1F83E352117D8D40005C272 /* 背景@3x.png */,
+				F1F83E362117D8D40005C272 /* 背景@2x.png */,
+				F1F83E372117D8D40005C272 /* 通讯录导入默认@3x.png */,
+				F1F83E382117D8D40005C272 /* 新增团友默认@3x.png */,
+				F1F83E392117D8D40005C272 /* 创建饭团默认@2x.png */,
+				F1F83E3A2117D8D40005C272 /* 创建饭团按下@2x.png */,
+				F1F83E3B2117D8D40005C272 /* 通讯录导入按下@3x.png */,
+				F1F83E3C2117D8D40005C272 /* 二维码@2x.png */,
+				F1F83E3D2117D8D40005C272 /* 新增团友按下@3x.png */,
+				F1F83E3E2117D8D40005C272 /* 新增团友按下@2x.png */,
+				F1F83E3F2117D8D40005C272 /* 二维码@3x.png */,
+				F1F83E402117D8D40005C272 /* 通讯录导入按下@2x.png */,
+				F1F83E412117D8D40005C272 /* 创建饭团按下@3x.png */,
+				F1F83E422117D8D40005C272 /* 邀请团友默认@3x.png */,
+				F1F83E432117D8D40005C272 /* 朋友圈@3x.png */,
+				F1F83E442117D8D40005C272 /* 朋友圈@2x.png */,
+				F1F83E452117D8D40005C272 /* 邀请团友默认@2x.png */,
+			);
+			path = group;
+			sourceTree = "<group>";
+		};
+		F1F83E462117D8D40005C272 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E472117D8D40005C272 /* 底部投影47@2x.png */,
+				F1F83E482117D8D40005C272 /* 点餐当前@2x.png */,
+				F1F83E492117D8D40005C272 /* 饭团当前@2x.png */,
+				F1F83E4A2117D8D40005C272 /* 订单默认@3x.png */,
+				F1F83E4B2117D8D40005C272 /* 我的默认@2x.png */,
+				F1F83E4C2117D8D40005C272 /* 我的默认@3x.png */,
+				F1F83E4D2117D8D40005C272 /* 订单默认@2x.png */,
+				F1F83E4E2117D8D40005C272 /* 饭团当前@3x.png */,
+				F1F83E4F2117D8D40005C272 /* 点餐当前@3x.png */,
+				F1F83E502117D8D40005C272 /* 底部投影55@3x.png */,
+				F1F83E512117D8D40005C272 /* 饭团默认@2x.png */,
+				F1F83E522117D8D40005C272 /* 订单当前@3x.png */,
+				F1F83E532117D8D40005C272 /* 我的当前@2x.png */,
+				F1F83E542117D8D40005C272 /* 底部投影X@3x.png */,
+				F1F83E552117D8D40005C272 /* 点餐默认@2x.png */,
+				F1F83E562117D8D40005C272 /* 点餐默认@3x.png */,
+				F1F83E572117D8D40005C272 /* 我的当前@3x.png */,
+				F1F83E582117D8D40005C272 /* 订单当前@2x.png */,
+				F1F83E592117D8D40005C272 /* 饭团默认@3x.png */,
+				F1F83E5A2117D8D40005C272 /* 底部投影4@2x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		F1F83E5B2117D8D40005C272 /* navigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E5C2117D8D40005C272 /* 返回按下@2x.png */,
+				F1F83E5D2117D8D40005C272 /* 返回按下@3x.png */,
+				F1F83E5E2117D8D40005C272 /* top背景58@3x.png */,
+				F1F83E5F2117D8D40005C272 /* 关闭白色按下@3x.png */,
+				F1F83E602117D8D40005C272 /* 关闭白色按下@2x.png */,
+				F1F83E612117D8D40005C272 /* 关闭白色默认@2x.png */,
+				F1F83E622117D8D40005C272 /* 关闭白色默认@3x.png */,
+				F1F83E632117D8D40005C272 /* top背景4@2x.png */,
+				F1F83E642117D8D40005C272 /* top背景55@3x.png */,
+				F1F83E652117D8D40005C272 /* 返回默认@3x.png */,
+				F1F83E662117D8D40005C272 /* 返回默认@2x.png */,
+				F1F83E672117D8D40005C272 /* top背景47@2x.png */,
+			);
+			path = navigationBar;
+			sourceTree = "<group>";
+		};
+		F1F83E682117D8D40005C272 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E692117D8D40005C272 /* 人民币符号@3x.png */,
+				F1F83E6A2117D8D40005C272 /* 我的背景@3x.png */,
+				F1F83E6B2117D8D40005C272 /* 默认@2x.png */,
+				F1F83E6C2117D8D40005C272 /* 前进白色按下@2x.png */,
+				F1F83E6D2117D8D40005C272 /* 我的钱包背景@3x.png */,
+				F1F83E6E2117D8D40005C272 /* 设置默认@3x.png */,
+				F1F83E6F2117D8D40005C272 /* 联系我们按下@2x.png */,
+				F1F83E702117D8D40005C272 /* 联系我们按下@3x.png */,
+				F1F83E712117D8D40005C272 /* 设置默认@2x.png */,
+				F1F83E722117D8D40005C272 /* 我的钱包背景@2x.png */,
+				F1F83E732117D8D40005C272 /* 我的背景X@3x.png */,
+				F1F83E742117D8D40005C272 /* 前进白色按下@3x.png */,
+				F1F83E752117D8D40005C272 /* 我的背景@2x.png */,
+				F1F83E762117D8D40005C272 /* 默认@3x.png */,
+				F1F83E772117D8D40005C272 /* 人民币符号@2x.png */,
+				F1F83E782117D8D40005C272 /* 我的钱包默认@2x.png */,
+				F1F83E792117D8D40005C272 /* 邀请默认@3x.png */,
+				F1F83E7A2117D8D40005C272 /* 地址默认@2x.png */,
+				F1F83E7B2117D8D40005C272 /* 头像默认.png */,
+				F1F83E7C2117D8D40005C272 /* 邀请默认@2x.png */,
+				F1F83E7D2117D8D40005C272 /* 地址默认@3x.png */,
+				F1F83E7E2117D8D40005C272 /* 我的钱包默认@3x.png */,
+				F1F83E7F2117D8D40005C272 /* inviteLogo.png */,
+				F1F83E802117D8D40005C272 /* 邀请按下@2x.png */,
+				F1F83E812117D8D40005C272 /* 地址按下@3x.png */,
+				F1F83E822117D8D40005C272 /* 我的钱包背景X@3x.png */,
+				F1F83E832117D8D40005C272 /* logo@3x.png */,
+				F1F83E842117D8D40005C272 /* 我的钱包按下@3x.png */,
+				F1F83E852117D8D40005C272 /* 我的钱包按下@2x.png */,
+				F1F83E862117D8D40005C272 /* logo@2x.png */,
+				F1F83E872117D8D40005C272 /* 我的钱包背景X@2x.png */,
+				F1F83E882117D8D40005C272 /* 邀请按下@3x.png */,
+				F1F83E892117D8D40005C272 /* 地址按下@2x.png */,
+				F1F83E8A2117D8D40005C272 /* 前进白色默认@3x.png */,
+				F1F83E8B2117D8D40005C272 /* 头像默认_群.png */,
+				F1F83E8C2117D8D40005C272 /* 设置按下@2x.png */,
+				F1F83E8D2117D8D40005C272 /* 联系我们默认@3x.png */,
+				F1F83E8E2117D8D40005C272 /* 定位当前位置@3x.png */,
+				F1F83E8F2117D8D40005C272 /* 定位当前位置@2x.png */,
+				F1F83E902117D8D40005C272 /* 联系我们默认@2x.png */,
+				F1F83E912117D8D40005C272 /* 设置按下@3x.png */,
+				F1F83E922117D8D40005C272 /* 前进白色默认@2x.png */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		F1F83E932117D8D40005C272 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83E942117D8D40005C272 /* 饭团头像@2x.png */,
+				F1F83E952117D8D40005C272 /* 重新定位默认@2x.png */,
+				F1F83E962117D8D40005C272 /* 未选中默认@2x.png */,
+				F1F83E972117D8D40005C272 /* 减少默认@3x.png */,
+				F1F83E982117D8D40005C272 /* 增加按下@3x.png */,
+				F1F83E992117D8D40005C272 /* 关闭默认@3x.png */,
+				F1F83E9A2117D8D40005C272 /* 支付宝@2x.png */,
+				F1F83E9B2117D8D40005C272 /* 无内容@3x.png */,
+				F1F83E9C2117D8D40005C272 /* 搜索浅灰@3x.png */,
+				F1F83E9D2117D8D40005C272 /* 选中默认@2x.png */,
+				F1F83E9E2117D8D40005C272 /* 进入按下@3x.png */,
+				F1F83E9F2117D8D40005C272 /* 添加按下@2x.png */,
+				F1F83EA02117D8D40005C272 /* 更新通知@3x.png */,
+				F1F83EA12117D8D40005C272 /* 下拉箭头按下@3x.png */,
+				F1F83EA22117D8D40005C272 /* 地址@3x.png */,
+				F1F83EA32117D8D40005C272 /* 晚@3x.png */,
+				F1F83EA42117D8D40005C272 /* 菜主图片@2x.png */,
+				F1F83EA52117D8D40005C272 /* 菜主图片@3x.png */,
+				F1F83EA62117D8D40005C272 /* 地址@2x.png */,
+				F1F83EA72117D8D40005C272 /* 晚@2x.png */,
+				F1F83EA82117D8D40005C272 /* 下拉箭头按下@2x.png */,
+				F1F83EA92117D8D40005C272 /* 更新通知@2x.png */,
+				F1F83EAA2117D8D40005C272 /* 添加按下@3x.png */,
+				F1F83EAB2117D8D40005C272 /* 进入按下@2x.png */,
+				F1F83EAC2117D8D40005C272 /* 搜索浅灰@2x.png */,
+				F1F83EAD2117D8D40005C272 /* 选中默认@3x.png */,
+				F1F83EAE2117D8D40005C272 /* 无内容@2x.png */,
+				F1F83EAF2117D8D40005C272 /* 关闭默认@2x.png */,
+				F1F83EB02117D8D40005C272 /* 支付宝@3x.png */,
+				F1F83EB12117D8D40005C272 /* 增加按下@2x.png */,
+				F1F83EB22117D8D40005C272 /* 减少默认@2x.png */,
+				F1F83EB32117D8D40005C272 /* 重新定位默认@3x.png */,
+				F1F83EB42117D8D40005C272 /* 未选中默认@3x.png */,
+				F1F83EB52117D8D40005C272 /* 饭团头像@3x.png */,
+				F1F83EB62117D8D40005C272 /* xxxx活动.png */,
+				F1F83EB72117D8D40005C272 /* 标题装饰@3x.png */,
+				F1F83EB82117D8D40005C272 /* 养生食疗按下@2x.png */,
+				F1F83EB92117D8D40005C272 /* tip-警示.png */,
+				F1F83EBA2117D8D40005C272 /* 购物车@2x.png */,
+				F1F83EBB2117D8D40005C272 /* 消息默认@3x.png */,
+				F1F83EBC2117D8D40005C272 /* 搜索白色按下@3x.png */,
+				F1F83EBD2117D8D40005C272 /* 转发按下@3x.png */,
+				F1F83EBE2117D8D40005C272 /* 微信支付@3x.png */,
+				F1F83EBF2117D8D40005C272 /* 团餐预定按下@2x.png */,
+				F1F83EC02117D8D40005C272 /* 消息提示1@2x.png */,
+				F1F83EC12117D8D40005C272 /* 消息提示1@3x.png */,
+				F1F83EC22117D8D40005C272 /* 团餐预定按下@3x.png */,
+				F1F83EC32117D8D40005C272 /* 微信支付@2x.png */,
+				F1F83EC42117D8D40005C272 /* 转发按下@2x.png */,
+				F1F83EC52117D8D40005C272 /* 消息默认@2x.png */,
+				F1F83EC62117D8D40005C272 /* 搜索白色按下@2x.png */,
+				F1F83EC72117D8D40005C272 /* 购物车@3x.png */,
+				F1F83EC82117D8D40005C272 /* tip-成功.png */,
+				F1F83EC92117D8D40005C272 /* 养生食疗按下@3x.png */,
+				F1F83ECA2117D8D50005C272 /* 标题装饰@2x.png */,
+				F1F83ECB2117D8D50005C272 /* tip-失败.png */,
+				F1F83ECC2117D8D50005C272 /* 通知默认图@3x.png */,
+				F1F83ECD2117D8D50005C272 /* 养生食疗默认@3x.png */,
+				F1F83ECE2117D8D50005C272 /* 团餐预定默认@3x.png */,
+				F1F83ECF2117D8D50005C272 /* 搜索深灰@3x.png */,
+				F1F83ED02117D8D50005C272 /* 搜索白色默认@2x.png */,
+				F1F83ED12117D8D50005C272 /* 消息按下@2x.png */,
+				F1F83ED22117D8D50005C272 /* 转发默认@2x.png */,
+				F1F83ED32117D8D50005C272 /* 播放按钮.png */,
+				F1F83ED42117D8D50005C272 /* 转发默认@3x.png */,
+				F1F83ED52117D8D50005C272 /* 搜索深灰@2x.png */,
+				F1F83ED62117D8D50005C272 /* 搜索白色默认@3x.png */,
+				F1F83ED72117D8D50005C272 /* 消息按下@3x.png */,
+				F1F83ED82117D8D50005C272 /* 团餐预定默认@2x.png */,
+				F1F83ED92117D8D50005C272 /* 养生食疗默认@2x.png */,
+				F1F83EDA2117D8D50005C272 /* tip-加载.png */,
+				F1F83EDB2117D8D50005C272 /* 通知默认图@2x.png */,
+				F1F83EDC2117D8D50005C272 /* xxxx订单.png */,
+				F1F83EDD2117D8D50005C272 /* 增加默认@2x.png */,
+				F1F83EDE2117D8D50005C272 /* 减少按下@2x.png */,
+				F1F83EDF2117D8D50005C272 /* 未选中按下@3x.png */,
+				F1F83EE02117D8D50005C272 /* 重新定位按下@3x.png */,
+				F1F83EE12117D8D50005C272 /* 午@2x.png */,
+				F1F83EE22117D8D50005C272 /* 播放按钮按下.png */,
+				F1F83EE32117D8D50005C272 /* 消息提示2@3x.png */,
+				F1F83EE42117D8D50005C272 /* 进入默认@2x.png */,
+				F1F83EE52117D8D50005C272 /* 选中按下@3x.png */,
+				F1F83EE62117D8D50005C272 /* 关闭按下@2x.png */,
+				F1F83EE72117D8D50005C272 /* 下拉箭头默认@2x.png */,
+				F1F83EE82117D8D50005C272 /* 购物车空@2x.png */,
+				F1F83EE92117D8D50005C272 /* banner@3x.png */,
+				F1F83EEA2117D8D50005C272 /* 添加默认@3x.png */,
+				F1F83EEB2117D8D50005C272 /* 列表头像@2x.png */,
+				F1F83EEC2117D8D50005C272 /* 列表头像@3x.png */,
+				F1F83EED2117D8D50005C272 /* 添加默认@2x.png */,
+				F1F83EEE2117D8D50005C272 /* banner@2x.png */,
+				F1F83EEF2117D8D50005C272 /* 下拉箭头默认@3x.png */,
+				F1F83EF02117D8D50005C272 /* 购物车空@3x.png */,
+				F1F83EF12117D8D50005C272 /* 关闭按下@3x.png */,
+				F1F83EF22117D8D50005C272 /* tip-繁忙.png */,
+				F1F83EF32117D8D50005C272 /* 选中按下@2x.png */,
+				F1F83EF42117D8D50005C272 /* 消息提示2@2x.png */,
+				F1F83EF52117D8D50005C272 /* 进入默认@3x.png */,
+				F1F83EF62117D8D50005C272 /* 未选中按下@2x.png */,
+				F1F83EF72117D8D50005C272 /* 重新定位按下@2x.png */,
+				F1F83EF82117D8D50005C272 /* 午@3x.png */,
+				F1F83EF92117D8D50005C272 /* 减少按下@3x.png */,
+				F1F83EFA2117D8D50005C272 /* 增加默认@3x.png */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		F1F83EFB2117D8D50005C272 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83EFC2117D8D50005C272 /* QQ@2x.png */,
+				F1F83EFD2117D8D50005C272 /* QQ@3x.png */,
+				F1F83EFE2117D8D50005C272 /* 手机@3x.png */,
+				F1F83EFF2117D8D50005C272 /* 手机@2x.png */,
+				F1F83F002117D8D50005C272 /* 验证码@3x.png */,
+				F1F83F012117D8D50005C272 /* 微信@3x.png */,
+				F1F83F022117D8D50005C272 /* 微信@2x.png */,
+				F1F83F032117D8D50005C272 /* 验证码@2x.png */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		F1F83FFA2117DAEE0005C272 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83FFB2117DAEE0005C272 /* LICENSE */,
+				F1F83FFC2117DAEE0005C272 /* Masonry */,
+				F1F840162117DAEE0005C272 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F1F83FFC2117DAEE0005C272 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				F1F83FFD2117DAEE0005C272 /* MASCompositeConstraint.h */,
+				F1F83FFE2117DAEE0005C272 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				F1F83FFF2117DAEE0005C272 /* MASConstraint+Private.h */,
+				F1F840002117DAEE0005C272 /* MASLayoutConstraint.h */,
+				F1F840012117DAEE0005C272 /* NSArray+MASShorthandAdditions.h */,
+				F1F840022117DAEE0005C272 /* MASConstraintMaker.h */,
+				F1F840032117DAEE0005C272 /* View+MASAdditions.h */,
+				F1F840042117DAEE0005C272 /* NSArray+MASAdditions.h */,
+				F1F840052117DAEE0005C272 /* MASUtilities.h */,
+				F1F840062117DAEE0005C272 /* MASViewAttribute.h */,
+				F1F840072117DAEE0005C272 /* ViewController+MASAdditions.m */,
+				F1F840082117DAEE0005C272 /* MASViewConstraint.h */,
+				F1F840092117DAEE0005C272 /* MASConstraint.h */,
+				F1F8400A2117DAEE0005C272 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				F1F8400B2117DAEE0005C272 /* MASCompositeConstraint.m */,
+				F1F8400C2117DAEE0005C272 /* MASConstraintMaker.m */,
+				F1F8400D2117DAEE0005C272 /* MASLayoutConstraint.m */,
+				F1F8400E2117DAEE0005C272 /* NSArray+MASAdditions.m */,
+				F1F8400F2117DAEE0005C272 /* View+MASAdditions.m */,
+				F1F840102117DAEE0005C272 /* View+MASShorthandAdditions.h */,
+				F1F840112117DAEE0005C272 /* Masonry.h */,
+				F1F840122117DAEE0005C272 /* MASConstraint.m */,
+				F1F840132117DAEE0005C272 /* ViewController+MASAdditions.h */,
+				F1F840142117DAEE0005C272 /* MASViewConstraint.m */,
+				F1F840152117DAEE0005C272 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		F1F8402F2117DEC30005C272 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F1F840302117DED60005C272 /* MainViewController.h */,
+				F1F840312117DED60005C272 /* MainViewController.m */,
+				F1F84048211821620005C272 /* AddSeriesViewController.h */,
+				F1F84049211821620005C272 /* AddSeriesViewController.m */,
+				F1F840552118406B0005C272 /* SeriesDetailViewController.h */,
+				F1F840562118406B0005C272 /* SeriesDetailViewController.m */,
+				F1F84068211932C00005C272 /* AddUnHaveViewController.h */,
+				F1F84069211932C00005C272 /* AddUnHaveViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F1F840442117F9100005C272 /* CityTool */ = {
+			isa = PBXGroup;
+			children = (
+				F1F840452117F9100005C272 /* CityTool.m */,
+				F1F840462117F9100005C272 /* CityTool.h */,
+			);
+			path = CityTool;
+			sourceTree = "<group>";
+		};
+		F1F840512118311E0005C272 /* SeriesTool */ = {
+			isa = PBXGroup;
+			children = (
+				F1F840522118312A0005C272 /* SeriesTool.h */,
+				F1F840532118312A0005C272 /* SeriesTool.m */,
+				F1F840582118423E0005C272 /* SeriesDetailTool.h */,
+				F1F840592118423E0005C272 /* SeriesDetailTool.m */,
+			);
+			path = SeriesTool;
+			sourceTree = "<group>";
+		};
+		F1F84061211853620005C272 /* GroupAddMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				F1F840622118536C0005C272 /* XBFloatMenuView.h */,
+				F1F840632118536C0005C272 /* XBFloatMenuView.m */,
+			);
+			path = GroupAddMenuView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1F83D532117D54E0005C272 /* PostcardRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F83D802117D54F0005C272 /* Build configuration list for PBXNativeTarget "PostcardRecord" */;
+			buildPhases = (
+				C3D910AB530B832C7B1AD681 /* [CP] Check Pods Manifest.lock */,
+				F1F83D502117D54E0005C272 /* Sources */,
+				F1F83D512117D54E0005C272 /* Frameworks */,
+				F1F83D522117D54E0005C272 /* Resources */,
+				9D37CC4884CF5C245A9584B6 /* [CP] Embed Pods Frameworks */,
+				A267CDB3796C3015D2306A8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostcardRecord;
+			productName = PostcardRecord;
+			productReference = F1F83D542117D54E0005C272 /* PostcardRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1F83D6B2117D54F0005C272 /* PostcardRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F83D832117D54F0005C272 /* Build configuration list for PBXNativeTarget "PostcardRecordTests" */;
+			buildPhases = (
+				66D3F85D1DEECCE67B4457D7 /* [CP] Check Pods Manifest.lock */,
+				F1F83D682117D54F0005C272 /* Sources */,
+				F1F83D692117D54F0005C272 /* Frameworks */,
+				F1F83D6A2117D54F0005C272 /* Resources */,
+				2F162E55C0F2BF70E466222A /* [CP] Embed Pods Frameworks */,
+				CF72B1200AAB72E7281E3C32 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F83D6E2117D54F0005C272 /* PBXTargetDependency */,
+			);
+			name = PostcardRecordTests;
+			productName = PostcardRecordTests;
+			productReference = F1F83D6C2117D54F0005C272 /* PostcardRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1F83D762117D54F0005C272 /* PostcardRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1F83D862117D54F0005C272 /* Build configuration list for PBXNativeTarget "PostcardRecordUITests" */;
+			buildPhases = (
+				3A815A9FA500CA7DF9542BC9 /* [CP] Check Pods Manifest.lock */,
+				F1F83D732117D54F0005C272 /* Sources */,
+				F1F83D742117D54F0005C272 /* Frameworks */,
+				F1F83D752117D54F0005C272 /* Resources */,
+				E27B6DBF3278EF4FA7588C39 /* [CP] Embed Pods Frameworks */,
+				89955377502CF65372039130 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1F83D792117D54F0005C272 /* PBXTargetDependency */,
+			);
+			name = PostcardRecordUITests;
+			productName = PostcardRecordUITests;
+			productReference = F1F83D772117D54F0005C272 /* PostcardRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1F83D4C2117D54E0005C272 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = xxb;
+				TargetAttributes = {
+					F1F83D532117D54E0005C272 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F1F83D6B2117D54F0005C272 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1F83D532117D54E0005C272;
+					};
+					F1F83D762117D54F0005C272 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1F83D532117D54E0005C272;
+					};
+				};
+			};
+			buildConfigurationList = F1F83D4F2117D54E0005C272 /* Build configuration list for PBXProject "PostcardRecord" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1F83D4B2117D54E0005C272;
+			productRefGroup = F1F83D552117D54E0005C272 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1F83D532117D54E0005C272 /* PostcardRecord */,
+				F1F83D6B2117D54F0005C272 /* PostcardRecordTests */,
+				F1F83D762117D54F0005C272 /* PostcardRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1F83D522117D54E0005C272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F83F252117D8D50005C272 /* 删除默认@2x.png in Resources */,
+				F1F83FB62117D8D60005C272 /* 微信支付@2x.png in Resources */,
+				F1F83F622117D8D60005C272 /* 设置默认@3x.png in Resources */,
+				F1F83FD52117D8D60005C272 /* 播放按钮按下.png in Resources */,
+				F1F83FC02117D8D60005C272 /* 养生食疗默认@3x.png in Resources */,
+				F1F83F2D2117D8D50005C272 /* 背景@2x.png in Resources */,
+				F1F83F052117D8D50005C272 /* 待付款按下@2x.png in Resources */,
+				F1F83F422117D8D50005C272 /* 我的默认@3x.png in Resources */,
+				F1F83FBA2117D8D60005C272 /* 购物车@3x.png in Resources */,
+				F1F83F3B2117D8D50005C272 /* 朋友圈@2x.png in Resources */,
+				F1F83F8F2117D8D60005C272 /* 搜索浅灰@3x.png in Resources */,
+				F1F83F2B2117D8D50005C272 /* 通讯录导入默认@2x.png in Resources */,
+				F1F83FF32117D8D60005C272 /* 微信@3x.png in Resources */,
+				F1F83F922117D8D60005C272 /* 添加按下@2x.png in Resources */,
+				F1F83F6C2117D8D60005C272 /* 我的钱包默认@2x.png in Resources */,
+				F1F83FAB2117D8D60005C272 /* 养生食疗按下@2x.png in Resources */,
+				F1F83FE32117D8D60005C272 /* 购物车空@3x.png in Resources */,
+				F1F83F262117D8D50005C272 /* 待付款默认@2x.png in Resources */,
+				F1F83F292117D8D50005C272 /* 创建饭团默认@3x.png in Resources */,
+				F1F83FA52117D8D60005C272 /* 减少默认@2x.png in Resources */,
+				F1F83F1D2117D8D50005C272 /* 待付款默认@3x.png in Resources */,
+				F1F83FD62117D8D60005C272 /* 消息提示2@3x.png in Resources */,
+				F1F83F0A2117D8D50005C272 /* 团@3x.png in Resources */,
+				F1F83DB82117D66F0005C272 /* README.md in Resources */,
+				F1F83FF12117D8D60005C272 /* 手机@2x.png in Resources */,
+				F1F83F482117D8D50005C272 /* 订单当前@3x.png in Resources */,
+				F1F83F932117D8D60005C272 /* 更新通知@3x.png in Resources */,
+				F1F83FD42117D8D60005C272 /* 午@2x.png in Resources */,
+				F1F83FB12117D8D60005C272 /* 微信支付@3x.png in Resources */,
+				F1F83F242117D8D50005C272 /* 收起按下@3x.png in Resources */,
+				F1F83FF02117D8D60005C272 /* 手机@3x.png in Resources */,
+				F1F83F672117D8D60005C272 /* 我的背景X@3x.png in Resources */,
+				F1F83F762117D8D60005C272 /* 我的钱包背景X@3x.png in Resources */,
+				F1F83FA42117D8D60005C272 /* 增加按下@2x.png in Resources */,
+				F1F83FDC2117D8D60005C272 /* banner@3x.png in Resources */,
+				F1F83F7F2117D8D60005C272 /* 头像默认_群.png in Resources */,
+				F1F83F742117D8D60005C272 /* 邀请按下@2x.png in Resources */,
+				F1F83F1A2117D8D50005C272 /* 已付款按下@3x.png in Resources */,
+				F1F83F952117D8D60005C272 /* 地址@3x.png in Resources */,
+				F1F83F302117D8D50005C272 /* 创建饭团默认@2x.png in Resources */,
+				F1F83FC22117D8D60005C272 /* 搜索深灰@3x.png in Resources */,
+				F1F83F342117D8D50005C272 /* 新增团友按下@3x.png in Resources */,
+				F1F83FEC2117D8D60005C272 /* 减少按下@3x.png in Resources */,
+				F1F83F5B2117D8D60005C272 /* 返回默认@2x.png in Resources */,
+				F1F83FDF2117D8D60005C272 /* 列表头像@3x.png in Resources */,
+				F1F83FBF2117D8D60005C272 /* 通知默认图@3x.png in Resources */,
+				F1F83F592117D8D60005C272 /* top背景55@3x.png in Resources */,
+				F1F83FD32117D8D60005C272 /* 重新定位按下@3x.png in Resources */,
+				F1F83F782117D8D60005C272 /* 我的钱包按下@3x.png in Resources */,
+				F1F83F862117D8D60005C272 /* 前进白色默认@2x.png in Resources */,
+				F1F83F852117D8D60005C272 /* 设置按下@3x.png in Resources */,
+				F1F83FC12117D8D60005C272 /* 团餐预定默认@3x.png in Resources */,
+				F1F83F112117D8D50005C272 /* 取消默认@3x.png in Resources */,
+				F1F83F182117D8D50005C272 /* 食@2x.png in Resources */,
+				F1F83FED2117D8D60005C272 /* 增加默认@3x.png in Resources */,
+				F1F83FD02117D8D60005C272 /* 增加默认@2x.png in Resources */,
+				F1F83F312117D8D50005C272 /* 创建饭团按下@2x.png in Resources */,
+				F1F83F2A2117D8D50005C272 /* 新增团友默认@2x.png in Resources */,
+				F1F83F0C2117D8D50005C272 /* 收起默认@2x.png in Resources */,
+				F1F83FCF2117D8D60005C272 /* xxxx订单.png in Resources */,
+				F1F83F3A2117D8D50005C272 /* 朋友圈@3x.png in Resources */,
+				F1F83FE22117D8D60005C272 /* 下拉箭头默认@3x.png in Resources */,
+				F1F83FC82117D8D60005C272 /* 搜索深灰@2x.png in Resources */,
+				F1F83F882117D8D60005C272 /* 重新定位默认@2x.png in Resources */,
+				F1F83FEA2117D8D60005C272 /* 重新定位按下@2x.png in Resources */,
+				F1F83FB92117D8D60005C272 /* 搜索白色按下@2x.png in Resources */,
+				F1F83FD12117D8D60005C272 /* 减少按下@2x.png in Resources */,
+				F1F83F572117D8D60005C272 /* 关闭白色默认@3x.png in Resources */,
+				F1F83F872117D8D60005C272 /* 饭团头像@2x.png in Resources */,
+				F1F83F6D2117D8D60005C272 /* 邀请默认@3x.png in Resources */,
+				F1F83F8E2117D8D60005C272 /* 无内容@3x.png in Resources */,
+				F1F83F7C2117D8D60005C272 /* 邀请按下@3x.png in Resources */,
+				F1F83FC42117D8D60005C272 /* 消息按下@2x.png in Resources */,
+				F1F83F3C2117D8D50005C272 /* 邀请团友默认@2x.png in Resources */,
+				F1F83F162117D8D50005C272 /* 取消默认@2x.png in Resources */,
+				F1F840172117DAEF0005C272 /* LICENSE in Resources */,
+				F1F83FE62117D8D60005C272 /* 选中按下@2x.png in Resources */,
+				F1F83F0B2117D8D50005C272 /* 团@2x.png in Resources */,
+				F1F83F042117D8D50005C272 /* AnXin_language.bundle in Resources */,
+				F1F83F3D2117D8D50005C272 /* 底部投影47@2x.png in Resources */,
+				F1F83F452117D8D50005C272 /* 点餐当前@3x.png in Resources */,
+				F1F83F702117D8D60005C272 /* 邀请默认@2x.png in Resources */,
+				F1F83FBE2117D8D60005C272 /* tip-失败.png in Resources */,
+				F1F83FA92117D8D60005C272 /* xxxx活动.png in Resources */,
+				F1F83FA32117D8D60005C272 /* 支付宝@3x.png in Resources */,
+				F1F83F942117D8D60005C272 /* 下拉箭头按下@3x.png in Resources */,
+				F1F83FBD2117D8D60005C272 /* 标题装饰@2x.png in Resources */,
+				F1F83F4F2117D8D60005C272 /* 饭团默认@3x.png in Resources */,
+				F1F83F122117D8D50005C272 /* 已付款默认@3x.png in Resources */,
+				F1F83F772117D8D60005C272 /* logo@3x.png in Resources */,
+				F1F83F632117D8D60005C272 /* 联系我们按下@2x.png in Resources */,
+				F1F83F4B2117D8D50005C272 /* 点餐默认@2x.png in Resources */,
+				F1F83F9D2117D8D60005C272 /* 添加按下@3x.png in Resources */,
+				F1F83F0E2117D8D50005C272 /* 展开默认@2x.png in Resources */,
+				F1F83FF52117D8D60005C272 /* 验证码@2x.png in Resources */,
+				F1F83F902117D8D60005C272 /* 选中默认@2x.png in Resources */,
+				F1F83F602117D8D60005C272 /* 前进白色按下@2x.png in Resources */,
+				F1F83F542117D8D60005C272 /* 关闭白色按下@3x.png in Resources */,
+				F1F83FCC2117D8D60005C272 /* 养生食疗默认@2x.png in Resources */,
+				F1F83FCB2117D8D60005C272 /* 团餐预定默认@2x.png in Resources */,
+				F1F83F892117D8D60005C272 /* 未选中默认@2x.png in Resources */,
+				F1F83FAD2117D8D60005C272 /* 购物车@2x.png in Resources */,
+				F1F83FE72117D8D60005C272 /* 消息提示2@2x.png in Resources */,
+				F1F83FCA2117D8D60005C272 /* 消息按下@3x.png in Resources */,
+				F1F83F612117D8D60005C272 /* 我的钱包背景@3x.png in Resources */,
+				F1F83F322117D8D50005C272 /* 通讯录导入按下@3x.png in Resources */,
+				F1F83FB52117D8D60005C272 /* 团餐预定按下@3x.png in Resources */,
+				F1F83F802117D8D60005C272 /* 设置按下@2x.png in Resources */,
+				F1F83F792117D8D60005C272 /* 我的钱包按下@2x.png in Resources */,
+				F1F83F362117D8D50005C272 /* 二维码@3x.png in Resources */,
+				F1F83F212117D8D50005C272 /* 收起按下@2x.png in Resources */,
+				F1F83F2C2117D8D50005C272 /* 背景@3x.png in Resources */,
+				F1F83F222117D8D50005C272 /* 已完成默认@3x.png in Resources */,
+				F1F83FDA2117D8D60005C272 /* 下拉箭头默认@2x.png in Resources */,
+				F1F83F822117D8D60005C272 /* 定位当前位置@3x.png in Resources */,
+				F1F83FC62117D8D60005C272 /* 播放按钮.png in Resources */,
+				F1F83F6B2117D8D60005C272 /* 人民币符号@2x.png in Resources */,
+				F1F83F1E2117D8D50005C272 /* 删除默认@3x.png in Resources */,
+				F1F83FAC2117D8D60005C272 /* tip-警示.png in Resources */,
+				F1F83F6F2117D8D60005C272 /* 头像默认.png in Resources */,
+				F1F83FB22117D8D60005C272 /* 团餐预定按下@2x.png in Resources */,
+				F1F83F102117D8D50005C272 /* 待付款按下@3x.png in Resources */,
+				F1F83F282117D8D50005C272 /* 邀请团友按下@3x.png in Resources */,
+				F1F83FD72117D8D60005C272 /* 进入默认@2x.png in Resources */,
+				F1F83F6E2117D8D60005C272 /* 地址默认@2x.png in Resources */,
+				F1F83F202117D8D50005C272 /* 展开按下@2x.png in Resources */,
+				F1F83D642117D54E0005C272 /* LaunchScreen.storyboard in Resources */,
+				F1F83F442117D8D50005C272 /* 饭团当前@3x.png in Resources */,
+				F1F83FE82117D8D60005C272 /* 进入默认@3x.png in Resources */,
+				F1F83F9E2117D8D60005C272 /* 进入按下@2x.png in Resources */,
+				F1F83F692117D8D60005C272 /* 我的背景@2x.png in Resources */,
+				F1F83F8B2117D8D60005C272 /* 增加按下@3x.png in Resources */,
+				F1F83F172117D8D50005C272 /* 取消按下@2x.png in Resources */,
+				F1F83F372117D8D50005C272 /* 通讯录导入按下@2x.png in Resources */,
+				F1F83FC52117D8D60005C272 /* 转发默认@2x.png in Resources */,
+				F1F83F4C2117D8D50005C272 /* 点餐默认@3x.png in Resources */,
+				F1F83F4A2117D8D50005C272 /* 底部投影X@3x.png in Resources */,
+				F1F83FAF2117D8D60005C272 /* 搜索白色按下@3x.png in Resources */,
+				F1F83F9C2117D8D60005C272 /* 更新通知@2x.png in Resources */,
+				F1F83FA62117D8D60005C272 /* 重新定位默认@3x.png in Resources */,
+				F1F83F5D2117D8D60005C272 /* 人民币符号@3x.png in Resources */,
+				F1F83FE92117D8D60005C272 /* 未选中按下@2x.png in Resources */,
+				F1F83F332117D8D50005C272 /* 二维码@2x.png in Resources */,
+				F1F83FDD2117D8D60005C272 /* 添加默认@3x.png in Resources */,
+				F1F83F9B2117D8D60005C272 /* 下拉箭头按下@2x.png in Resources */,
+				F1F83D612117D54E0005C272 /* Assets.xcassets in Resources */,
+				F1F83FD82117D8D60005C272 /* 选中按下@3x.png in Resources */,
+				F1F83FC72117D8D60005C272 /* 转发默认@3x.png in Resources */,
+				F1F83F6A2117D8D60005C272 /* 默认@3x.png in Resources */,
+				F1F83F532117D8D60005C272 /* top背景58@3x.png in Resources */,
+				F1F83F412117D8D50005C272 /* 我的默认@2x.png in Resources */,
+				F1F83FB02117D8D60005C272 /* 转发按下@3x.png in Resources */,
+				F1F83F272117D8D50005C272 /* 邀请团友按下@2x.png in Resources */,
+				F1F83FD22117D8D60005C272 /* 未选中按下@3x.png in Resources */,
+				F1F83F7E2117D8D60005C272 /* 前进白色默认@3x.png in Resources */,
+				F1F83F722117D8D60005C272 /* 我的钱包默认@3x.png in Resources */,
+				F1F83F552117D8D60005C272 /* 关闭白色按下@2x.png in Resources */,
+				F1F83FE42117D8D60005C272 /* 关闭按下@3x.png in Resources */,
+				F1F83FC32117D8D60005C272 /* 搜索白色默认@2x.png in Resources */,
+				F1F83F2E2117D8D50005C272 /* 通讯录导入默认@3x.png in Resources */,
+				F1F83F432117D8D50005C272 /* 订单默认@2x.png in Resources */,
+				F1F83F912117D8D60005C272 /* 进入按下@3x.png in Resources */,
+				F1F840222117DAEF0005C272 /* README.md in Resources */,
+				F1F83F062117D8D50005C272 /* 删除按下@2x.png in Resources */,
+				F1F83FAE2117D8D60005C272 /* 消息默认@3x.png in Resources */,
+				F1F83F4E2117D8D60005C272 /* 订单当前@2x.png in Resources */,
+				F1F83F682117D8D60005C272 /* 前进白色按下@3x.png in Resources */,
+				F1F83FA12117D8D60005C272 /* 无内容@2x.png in Resources */,
+				F1F83FB72117D8D60005C272 /* 转发按下@2x.png in Resources */,
+				F1F83F152117D8D50005C272 /* 已付款默认@2x.png in Resources */,
+				F1F83F662117D8D60005C272 /* 我的钱包背景@2x.png in Resources */,
+				F1F83FB82117D8D60005C272 /* 消息默认@2x.png in Resources */,
+				F1F83F582117D8D60005C272 /* top背景4@2x.png in Resources */,
+				F1F83FDB2117D8D60005C272 /* 购物车空@2x.png in Resources */,
+				F1F83F382117D8D50005C272 /* 创建饭团按下@3x.png in Resources */,
+				F1F83F072117D8D50005C272 /* 收起默认@3x.png in Resources */,
+				F1F83F512117D8D60005C272 /* 返回按下@2x.png in Resources */,
+				F1F83F562117D8D60005C272 /* 关闭白色默认@2x.png in Resources */,
+				F1F83F1F2117D8D50005C272 /* 已完成默认@2x.png in Resources */,
+				F1F83FEE2117D8D60005C272 /* QQ@2x.png in Resources */,
+				F1F83FCD2117D8D60005C272 /* tip-加载.png in Resources */,
+				F1F83F2F2117D8D50005C272 /* 新增团友默认@3x.png in Resources */,
+				F1F83F3E2117D8D50005C272 /* 点餐当前@2x.png in Resources */,
+				F1F83FEB2117D8D60005C272 /* 午@3x.png in Resources */,
+				F1F83D922117D5FB0005C272 /* city.json in Resources */,
+				F1F83FA02117D8D60005C272 /* 选中默认@3x.png in Resources */,
+				F1F83F832117D8D60005C272 /* 定位当前位置@2x.png in Resources */,
+				F1F83FD92117D8D60005C272 /* 关闭按下@2x.png in Resources */,
+				F1F83F402117D8D50005C272 /* 订单默认@3x.png in Resources */,
+				F1F83FDE2117D8D60005C272 /* 列表头像@2x.png in Resources */,
+				F1F83F0D2117D8D50005C272 /* 已完成按下@2x.png in Resources */,
+				F1F83FBC2117D8D60005C272 /* 养生食疗按下@3x.png in Resources */,
+				F1F83FF22117D8D60005C272 /* 验证码@3x.png in Resources */,
+				F1F83F7B2117D8D60005C272 /* 我的钱包背景X@2x.png in Resources */,
+				F1F83F082117D8D50005C272 /* 已完成按下@3x.png in Resources */,
+				F1F83F5C2117D8D60005C272 /* top背景47@2x.png in Resources */,
+				F1F83FA72117D8D60005C272 /* 未选中默认@3x.png in Resources */,
+				F1F83F972117D8D60005C272 /* 菜主图片@2x.png in Resources */,
+				F1F83F3F2117D8D50005C272 /* 饭团当前@2x.png in Resources */,
+				F1F83F962117D8D60005C272 /* 晚@3x.png in Resources */,
+				F1F83FC92117D8D60005C272 /* 搜索白色默认@3x.png in Resources */,
+				F1F83D5F2117D54E0005C272 /* Main.storyboard in Resources */,
+				F1F83FBB2117D8D60005C272 /* tip-成功.png in Resources */,
+				F1F83F712117D8D60005C272 /* 地址默认@3x.png in Resources */,
+				F1F83FB42117D8D60005C272 /* 消息提示1@3x.png in Resources */,
+				F1F83F132117D8D50005C272 /* 余额支付@3x.png in Resources */,
+				F1F83F1C2117D8D50005C272 /* 取消按下@3x.png in Resources */,
+				F1F83F5E2117D8D60005C272 /* 我的背景@3x.png in Resources */,
+				F1F83F142117D8D50005C272 /* 余额支付@2x.png in Resources */,
+				F1F83FE52117D8D60005C272 /* tip-繁忙.png in Resources */,
+				F1F83FEF2117D8D60005C272 /* QQ@3x.png in Resources */,
+				F1F83F9F2117D8D60005C272 /* 搜索浅灰@2x.png in Resources */,
+				F1F83F352117D8D50005C272 /* 新增团友按下@2x.png in Resources */,
+				F1F83F522117D8D60005C272 /* 返回按下@3x.png in Resources */,
+				F1F83F812117D8D60005C272 /* 联系我们默认@3x.png in Resources */,
+				F1F83F7D2117D8D60005C272 /* 地址按下@2x.png in Resources */,
+				F1F83F8A2117D8D60005C272 /* 减少默认@3x.png in Resources */,
+				F1F83F8C2117D8D60005C272 /* 关闭默认@3x.png in Resources */,
+				F1F83F982117D8D60005C272 /* 菜主图片@3x.png in Resources */,
+				F1F83FA22117D8D60005C272 /* 关闭默认@2x.png in Resources */,
+				F1F83F8D2117D8D60005C272 /* 支付宝@2x.png in Resources */,
+				F1F83F232117D8D50005C272 /* 展开按下@3x.png in Resources */,
+				F1F83F1B2117D8D50005C272 /* 食@3x.png in Resources */,
+				F1F83F5F2117D8D60005C272 /* 默认@2x.png in Resources */,
+				F1F83FE02117D8D60005C272 /* 添加默认@2x.png in Resources */,
+				F1F83F092117D8D50005C272 /* 展开默认@3x.png in Resources */,
+				F1F83F7A2117D8D60005C272 /* logo@2x.png in Resources */,
+				F1F83F732117D8D60005C272 /* inviteLogo.png in Resources */,
+				F1F83FB32117D8D60005C272 /* 消息提示1@2x.png in Resources */,
+				F1F83F492117D8D50005C272 /* 我的当前@2x.png in Resources */,
+				F1F83F192117D8D50005C272 /* 已付款按下@2x.png in Resources */,
+				F1F83F462117D8D50005C272 /* 底部投影55@3x.png in Resources */,
+				F1F83FF42117D8D60005C272 /* 微信@2x.png in Resources */,
+				F1F83FA82117D8D60005C272 /* 饭团头像@3x.png in Resources */,
+				F1F83FE12117D8D60005C272 /* banner@2x.png in Resources */,
+				F1F83DB72117D66F0005C272 /* LICENSE in Resources */,
+				F1F83F652117D8D60005C272 /* 设置默认@2x.png in Resources */,
+				F1F83F5A2117D8D60005C272 /* 返回默认@3x.png in Resources */,
+				F1F83F0F2117D8D50005C272 /* 删除按下@3x.png in Resources */,
+				F1F83F642117D8D60005C272 /* 联系我们按下@3x.png in Resources */,
+				F1F83F502117D8D60005C272 /* 底部投影4@2x.png in Resources */,
+				F1F83F992117D8D60005C272 /* 地址@2x.png in Resources */,
+				F1F83FCE2117D8D60005C272 /* 通知默认图@2x.png in Resources */,
+				F1F83FAA2117D8D60005C272 /* 标题装饰@3x.png in Resources */,
+				F1F83F392117D8D50005C272 /* 邀请团友默认@3x.png in Resources */,
+				F1F83F752117D8D60005C272 /* 地址按下@3x.png in Resources */,
+				F1F83F842117D8D60005C272 /* 联系我们默认@2x.png in Resources */,
+				F1F83F4D2117D8D60005C272 /* 我的当前@3x.png in Resources */,
+				F1F83F9A2117D8D60005C272 /* 晚@2x.png in Resources */,
+				F1F83F472117D8D50005C272 /* 饭团默认@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F83D6A2117D54F0005C272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F83D752117D54F0005C272 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F162E55C0F2BF70E466222A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostcardRecordTests/Pods-PostcardRecordTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A815A9FA500CA7DF9542BC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostcardRecordUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66D3F85D1DEECCE67B4457D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostcardRecordTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89955377502CF65372039130 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostcardRecordUITests/Pods-PostcardRecordUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D37CC4884CF5C245A9584B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostcardRecord/Pods-PostcardRecord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A267CDB3796C3015D2306A8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PostcardRecord/Pods-PostcardRecord-resources.sh",
+				"${PODS_ROOT}/AVOSCloud/AVOS/AVOSCloud/AVOSCloud_Art.inc",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AVOSCloud_Art.inc",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostcardRecord/Pods-PostcardRecord-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3D910AB530B832C7B1AD681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostcardRecord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF72B1200AAB72E7281E3C32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostcardRecordTests/Pods-PostcardRecordTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27B6DBF3278EF4FA7588C39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PostcardRecordUITests/Pods-PostcardRecordUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1F83D502117D54E0005C272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F83DAD2117D66F0005C272 /* MJPropertyType.m in Sources */,
+				F1F83DB62117D66F0005C272 /* MJFoundation.m in Sources */,
+				F1F8401D2117DAEF0005C272 /* NSArray+MASAdditions.m in Sources */,
+				F1F8402D2117DD8C0005C272 /* UINavigation+SXFixSpace.m in Sources */,
+				F1F83DF22117D87D0005C272 /* XBAlertViewBase.m in Sources */,
+				F1F83DB12117D66F0005C272 /* MJExtensionConst.m in Sources */,
+				F1F840252117DBDE0005C272 /* UIView+Animation.m in Sources */,
+				F1F8401A2117DAEF0005C272 /* MASCompositeConstraint.m in Sources */,
+				F1F83D5C2117D54E0005C272 /* ViewController.m in Sources */,
+				F1F83DC12117D7A70005C272 /* BaseBackViewController.m in Sources */,
+				F1F83DCF2117D83B0005C272 /* UIImage+ColorImage.m in Sources */,
+				F1F83DCA2117D82F0005C272 /* UIColor+Extern.m in Sources */,
+				F1F83DF32117D87D0005C272 /* XBAlertViewBase+Queue.m in Sources */,
+				F1F83DF62117D87D0005C272 /* XBActionSheet.m in Sources */,
+				F1F84067211853BE0005C272 /* UIView+FrameLayout.m in Sources */,
+				F1F83DCC2117D82F0005C272 /* UIView+Category.m in Sources */,
+				F1F840192117DAEF0005C272 /* ViewController+MASAdditions.m in Sources */,
+				F1F840542118312A0005C272 /* SeriesTool.m in Sources */,
+				F1F840352117F6970005C272 /* CountryModel.m in Sources */,
+				F1F8404A211821620005C272 /* AddSeriesViewController.m in Sources */,
+				F1F83DAF2117D66F0005C272 /* MJProperty.m in Sources */,
+				F1F8402E2117DD8C0005C272 /* NSObject+SXRuntime.m in Sources */,
+				F1F83DCB2117D82F0005C272 /* UIButton+Extern.m in Sources */,
+				F1F840322117DED60005C272 /* MainViewController.m in Sources */,
+				F1F840182117DAEF0005C272 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				F1F83D672117D54F0005C272 /* main.m in Sources */,
+				F1F83DF12117D87D0005C272 /* XBAlertView_sharePay.m in Sources */,
+				F1F83DEE2117D87D0005C272 /* XBAlertView.m in Sources */,
+				F1F8404D211825700005C272 /* XBAlertView_inputPWD.m in Sources */,
+				F1F840282117DC7D0005C272 /* NSMutableAttributedString+XBExtension.m in Sources */,
+				F1F83DB02117D66F0005C272 /* NSObject+MJCoding.m in Sources */,
+				F1F840212117DAEF0005C272 /* MASViewAttribute.m in Sources */,
+				F1F840572118406B0005C272 /* SeriesDetailViewController.m in Sources */,
+				F1F840472117F9100005C272 /* CityTool.m in Sources */,
+				F1F83DB32117D66F0005C272 /* NSObject+MJClass.m in Sources */,
+				F1F83DC22117D7A70005C272 /* BaseViewController.m in Sources */,
+				F1F840642118536C0005C272 /* XBFloatMenuView.m in Sources */,
+				F1F83D592117D54E0005C272 /* AppDelegate.m in Sources */,
+				F1F8401F2117DAEF0005C272 /* MASConstraint.m in Sources */,
+				F1F83DB42117D66F0005C272 /* NSString+MJExtension.m in Sources */,
+				F111B98121197043000B862B /* SyncTool.m in Sources */,
+				F1F84050211829800005C272 /* SeriesModel.m in Sources */,
+				F1F8405A2118423E0005C272 /* SeriesDetailTool.m in Sources */,
+				F1F8401C2117DAEF0005C272 /* MASLayoutConstraint.m in Sources */,
+				F1F83DF72117D87D0005C272 /* XBTipView.m in Sources */,
+				F1F83DFB2117D88A0005C272 /* XBLocalizedString.m in Sources */,
+				F1F8401E2117DAEF0005C272 /* View+MASAdditions.m in Sources */,
+				F1F83DF02117D87D0005C272 /* XBAlertView+Block.m in Sources */,
+				F1F8401B2117DAEF0005C272 /* MASConstraintMaker.m in Sources */,
+				F1F83DB22117D66F0005C272 /* NSObject+MJProperty.m in Sources */,
+				F1F83DAE2117D66F0005C272 /* NSObject+MJKeyValue.m in Sources */,
+				F111B989211971BF000B862B /* LeanCloudTool.m in Sources */,
+				F1F83DF42117D87D0005C272 /* XBAlertViewManager.m in Sources */,
+				F1F83DF52117D87D0005C272 /* XBWaitingView.m in Sources */,
+				F1F83DB52117D66F0005C272 /* MJPropertyKey.m in Sources */,
+				F1F840382117F7470005C272 /* CityModel.m in Sources */,
+				F1F83FF82117D8F80005C272 /* UIView+AdaptKeyboard.m in Sources */,
+				F1F8403B2117F78C0005C272 /* RegionModel.m in Sources */,
+				F1F8406021184F2D0005C272 /* SeriesDetailModel.m in Sources */,
+				F111B99021199AA3000B862B /* XBAlertView_login.m in Sources */,
+				F1F83DEF2117D87D0005C272 /* XBAlertView_MsgLeft.m in Sources */,
+				F1F840202117DAEF0005C272 /* MASViewConstraint.m in Sources */,
+				F1F8406A211932C00005C272 /* AddUnHaveViewController.m in Sources */,
+				F111B985211970C8000B862B /* LoginTool.m in Sources */,
+				F1F83D8E2117D5730005C272 /* XBAppTool.m in Sources */,
+				F1F83DD32117D8570005C272 /* XBButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F83D682117D54F0005C272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F83D712117D54F0005C272 /* PostcardRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F83D732117D54F0005C272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F83D7C2117D54F0005C272 /* PostcardRecordUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1F83D6E2117D54F0005C272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F83D532117D54E0005C272 /* PostcardRecord */;
+			targetProxy = F1F83D6D2117D54F0005C272 /* PBXContainerItemProxy */;
+		};
+		F1F83D792117D54F0005C272 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1F83D532117D54E0005C272 /* PostcardRecord */;
+			targetProxy = F1F83D782117D54F0005C272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1F83D5D2117D54E0005C272 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F83D5E2117D54E0005C272 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1F83D622117D54E0005C272 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1F83D632117D54E0005C272 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1F83D7E2117D54F0005C272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1F83D7F2117D54F0005C272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1F83D812117D54F0005C272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DDDE1082A29794C5CFC49B5 /* Pods-PostcardRecord.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC2BP8QGY9;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PostcardRecord/PrefixHeader.pch;
+				INFOPLIST_FILE = PostcardRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.PostcardRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1F83D822117D54F0005C272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 286CFFAFE5A781B8E6DC3E20 /* Pods-PostcardRecord.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RC2BP8QGY9;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PostcardRecord/PrefixHeader.pch;
+				INFOPLIST_FILE = PostcardRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.PostcardRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1F83D842117D54F0005C272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34EA08F0CB378204C7E5ABE /* Pods-PostcardRecordTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PostcardRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.PostcardRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostcardRecord.app/PostcardRecord";
+			};
+			name = Debug;
+		};
+		F1F83D852117D54F0005C272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED66399E1328E7A4828963A7 /* Pods-PostcardRecordTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PostcardRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.PostcardRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PostcardRecord.app/PostcardRecord";
+			};
+			name = Release;
+		};
+		F1F83D872117D54F0005C272 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9A379778E92E2CA8A0064B /* Pods-PostcardRecordUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PostcardRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.PostcardRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostcardRecord;
+			};
+			name = Debug;
+		};
+		F1F83D882117D54F0005C272 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE08A680CC85A6CF1EB5759 /* Pods-PostcardRecordUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PostcardRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XBAnimation.PostcardRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PostcardRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1F83D4F2117D54E0005C272 /* Build configuration list for PBXProject "PostcardRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F83D7E2117D54F0005C272 /* Debug */,
+				F1F83D7F2117D54F0005C272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F83D802117D54F0005C272 /* Build configuration list for PBXNativeTarget "PostcardRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F83D812117D54F0005C272 /* Debug */,
+				F1F83D822117D54F0005C272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F83D832117D54F0005C272 /* Build configuration list for PBXNativeTarget "PostcardRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F83D842117D54F0005C272 /* Debug */,
+				F1F83D852117D54F0005C272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1F83D862117D54F0005C272 /* Build configuration list for PBXNativeTarget "PostcardRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1F83D872117D54F0005C272 /* Debug */,
+				F1F83D882117D54F0005C272 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1F83D4C2117D54E0005C272 /* Project object */;
+}

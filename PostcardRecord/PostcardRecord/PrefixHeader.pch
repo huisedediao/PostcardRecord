@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  PostcardRecord
+//
+//  Created by xxb on 2018/8/6.
+//  Copyright © 2018年 xxb. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "XBLocalizedString.h"
+#import "XBAlertView.h"
+#import "XBAlertView+Block.h"
+#import "XBDefine.h"
+#import "Header_Text.h"
+#import "Header_Color.h"
+#import "Header_Image.h"
+#import "Header_Notice.h"
+#import "Header_Number.h"
+#import "Header_Enum.h"
+#import "Header_AppConfig.h"
+#import "Header_City.h"
+#import "Header_block.h"
+#import "Header_keys.h"
+#import "XBAppTool.h"
+#import "XBTipView.h"
+#import "XBWaitingView.h"
+#import "AppDelegate.h"
+#import "Masonry.h"
+#import "XBButton.h"
+#import "CityTool.h"
+#import "MJExtension.h"
+#import "SeriesTool.h"
+#import "SeriesDetailTool.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
