@@ -7,11 +7,12 @@
 //
 
 #import "LeanCloudTool.h"
+#import "Header_leanConfig.h"
 
 @implementation LeanCloudTool
 + (void)registerService
 {
-    [AVOSCloud setApplicationId:@"XSzYvCfUy4rUmMhTGQchynQU-gzGzoHsz" clientKey:@"Vns1kkD1eFNlFzVQVoPq1oXb"];
+    [AVOSCloud setApplicationId:appId clientKey:appKey];
 }
 
 #pragma mark - 和云端数据同步

@@ -367,6 +367,7 @@
 		F111B98C211981C3000B862B /* Header_leanEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_leanEnum.h; sourceTree = "<group>"; };
 		F111B98E21199AA3000B862B /* XBAlertView_login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XBAlertView_login.h; sourceTree = "<group>"; };
 		F111B98F21199AA3000B862B /* XBAlertView_login.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XBAlertView_login.m; sourceTree = "<group>"; };
+		F1D0B2C221A7DAFB003D3079 /* Header_leanConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header_leanConfig.h; sourceTree = "<group>"; };
 		F1F83D542117D54E0005C272 /* PostcardRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostcardRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1F83D572117D54E0005C272 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F1F83D582117D54E0005C272 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -842,6 +843,7 @@
 		F111B986211971B5000B862B /* LeanCloudTool */ = {
 			isa = PBXGroup;
 			children = (
+				F1D0B2C221A7DAFB003D3079 /* Header_leanConfig.h */,
 				F111B987211971BF000B862B /* LeanCloudTool.h */,
 				F111B988211971BF000B862B /* LeanCloudTool.m */,
 				F111B98A21197458000B862B /* Header_leanTable.h */,
